@@ -1,0 +1,10 @@
+- title: Special Issue on Visual Analytics
+  journal: IEEE Computer, 46, 7
+  year: 2013
+  authors:
+  - streit
+  - bimber
+  image: /assets/images/covers/2013_ieee-computer_visual-analytics.png
+  doi:
+  # use publisher only if no doi is available
+  publisher: http://www.computer.org/csdl/mags/co/2013/07/index.html

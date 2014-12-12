@@ -1,0 +1,19 @@
+- type: PhD Thesis
+  title: Guided Visual Analysis of Heterogeneous Data
+  supervision: Prof. Dieter Schmalstieg
+  date: March 2011
+  institution: Graz University of Technology
+  pdf: 2011_phd_thesis_streit.pdf
+
+- type: Master's Thesis
+  title: Metabolic Pathways Influencing Gene-Expression Analysis
+  supervision: Prof. Dieter Schmalstieg / Michael Kalkusch
+  date: June 2007
+  institution: Graz University of Technology
+  pdf: 2011_master_thesis_streit.pdf
+
+- type: Bachelor's Thesis
+  title: Intuitive Data Visualization and Interactive Data Meta-Evaluation in Automated Multi-Parameter Tissue Cytometry
+  supervision: Prof. Horst Bischof
+  date: June 2005
+  institution: Graz University of Technology

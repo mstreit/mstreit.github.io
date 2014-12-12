@@ -1,0 +1,172 @@
+- authors:
+  - stitz
+  - gratzl
+  - luger
+  - gehlenborg
+  - streit
+  title: Transparent Layering for Visualizing Dynamic Graphs Using the Flip Book Metaphor
+  journal: Poster Compendium of the IEEE Conference on Information Visualization (InfoVis ’14)
+  year: 2014
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - partl
+  - lex
+  - streit
+  - strobelt
+  - wassermann
+  - pfister
+  - schmalstieg
+  title: "ConTour: Data-Driven Exploration of Multi-Relational Datasets for Drug Discovery"
+  journal: IEEE Symposium on Biological Data Visualization (BioVis '14)
+  year: 2014
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - gehlenborg
+  - Richard Park
+  - Ilya Sytchev
+  - Psalm Haseley
+  - Stefan Luger
+  - Anton Xue
+  - streit
+  - Shannan Ho Sui
+  - Winston Hide
+  - park
+  title: "Refinery Platform: A Foundation for Integrative Data Visualization Tools"
+  journal: IEEE Symposium on Biological Data Visualization (BioVis '14)
+  year: 2014
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - schulz
+  - streit
+  - Thorsten May
+  - Christian Tominski
+  title: Towards a Characterization of Guidance in Visualization
+  journal: Poster Compendium of the IEEE Conference on Information Visualization (InfoVis ’13)
+  year: 2013
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - streit
+  - lex
+  - partl
+  - schmalstieg
+  - park
+  - gehlenborg
+  title: "StratomeX: Guided Visual Exploration for Tumor Subtype Identification in The Cancer Genome Atlas"
+  journal: The Cancer Genome Atlas' 2nd Annual Scientific Symposium
+  year: 2012
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - lex
+  - streit
+  - schulz
+  - partl
+  - schmalstieg
+  - park
+  - gehlenborg
+  title: "StratomeX: Enabling Visualization-Driven Cancer Subtype Analysis"
+  journal: IEEE Symposium on Biological Data Visualization (BioVis '12)
+  year: 2012
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - streit
+  - lex
+  - schulz
+  - partl
+  - schmalstieg
+  - park
+  - gehlenborg
+  title: Guided Visual Analysis for the Identification of Cancer Subtypes
+  journal: The Cancer Genome Atlas’ Semi-Annual Steering Committee Meeting
+  year: 2012
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - lex
+  - streit
+  - schulz
+  - partl
+  - schmalstieg
+  - park
+  - gehlenborg
+  title: StratomeX - Integrative Visualization of Tumor Subtypes in Cancer Genomics Data Sets
+  journal: EMBO Workshop on Visualizing Biological Data (VIZBI '12)
+  year: 2012
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - streit
+  - lex
+  - doleisch
+  - schmalstieg
+  title: Does Software Engineering Pay Off for Research? Lessons Learned from the Caleydo Project
+  journal: Eurographics Workshop on Visual Computing for Biomedicine (VCBM '10)
+  year: 2010
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - Gudrun Schmidt-Gann
+  - Katharina Schmid
+  - Monika Uehlein
+  - Joachim Struck
+  - Andreas Bergmann
+  - schmalstieg
+  - streit
+  - lex
+  - Douw G. van der Nest
+  - Martijn van Griensven
+  - Heinz Redl
+  title: Gene- and Protein Expression Profiling in Liver in a Sepsis-Baboon Model
+  journal: In Proceedings of the Conference on SHOCK, 31, 4-4
+  year: 2009
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - streit
+  - lex
+  - schmalstieg
+  - Heimo Müller
+  - Stefan Sauer
+  - Wilhelm Steiner
+  - Kurt Zatloukal
+  title: CALEYDO
+  journal: ZMF.Day (Center for Medical Research)
+  year: 2008
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - waldner
+  - Christian Pirchheim
+  - streit
+  - schmalstieg
+  title: Multiple View Visualization On A Multi Display Setup
+  journal: International Workshop on Giga-Pixel Displays & Visual Analytics (GIANT '08)
+  year: 2008
+  abstract-pdf:
+  poster-pdf:
+
+- authors:
+  - streit
+  - kalkusch
+  - schmalstieg
+  title: Interactive Visualization of Metabolic Pathways
+  journal: In Poster Compendium of the IEEE Conference on Visualization (Vis '07)
+  year: 2007
+  abstract-pdf:
+  poster-pdf:

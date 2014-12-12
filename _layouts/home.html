@@ -1,0 +1,106 @@
+---
+layout: default
+---
+  <header class="home-title">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <article class="home-content-main">
+
+   <p><img src="/assets/images/marc_streit.jpg" alt="Marc Streit" class="portrait-image" />
+
+   <!--p>Assistant professor<br />Institute of Computer Graphics, Johannes Kepler University Linz, Austria.</p-->
+
+   <p>I am an assistant professor at the <a href="http://www.icg.jku.at">Institute of Computer Graphics</a> at <a href="http://www.jku.at">Johannes Kepler University Linz</a>. I finished my PhD at the <a href="http://www.icg.tugraz.at">Institute for Computer Graphics and Vision</a> at <a href="http://www.tugraz.at">Graz University of Technology</a> in early 2011 and moved to Linz later that year. As part of my tenure-track position, I spent a part of the year 2012 as a visiting researcher at the <a href="http://www.cmbi.med.harvardu.edu">Center for Biomedical Informatics</a> (CBMI) at Harvard Medical School. In 2014 received a Fulbright scholarship for research and lecturing at the <a href="http://vcg.seas.harvard.edu">Pfister Lab</a> at the <a href="http://www.seas.harvardu.edu">Harvard School of Engineering and Applied Sciences</a>.</p>
+
+    <p>My scientific areas of interest include <i>information visualization, visual analytics</i>, and <i>biological data visualization</i>, where I am particularly interested in the integrated analysis of large heterogeneous data. Most of my research is embedded in the <a href="http://www.caleydo.org">Caleydo project</a>, where I am one of the project leaders and founding-members.</p>
+
+    <p>I won Best Paper Awards at InfoVis'13, BioVis’12, InfoVis’11, GI’10 and Honorable Mention Awards at CHI'14, InfoVis'14 and EuroVis’12. I am a co-author of the Nature Methods <i>Points of View</i> column. In 2013 I co-edited the Special Issue on Visual Analytics in the IEEE Computer journal. Additionally, I actively contribute to the scientific community by serving on the organizing and program committee of several scientific events as well as by acting as a reviewer for high-quality journals and conferences.</p>
+
+    <h1>Recent Events <span class="right-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
+
+    <ul class="post-list">
+      {% for post in site.posts limit:4 %}
+      <li class="post-list-item">
+        <div class="post-list-title">
+          {{ post.date | date: "%b %Y" }} | {{ post.title }}
+        </div>
+        <!--div class="post-list-excerpt">
+          {{ post.excerpt }}
+          <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a>
+        </div-->
+      </li>
+      {% endfor %}
+    </ul>
+    <p><a href="news">Earlier news ...</a></p>
+
+  </article>
+
+  <article class="home-content-aside">
+
+      <h1>Contact</h1>
+      <ul class="contact-list fa-ul">
+          <li><i class="fa-li fa fa-home"></i>
+          <p>Assist.-Prof. Dipl.-Ing. Dr. <b>Marc Streit</b></p>
+          Johannes Kepler University Linz<br />
+          Institute of Computer Graphics<br />
+          Altenberger Straße 69<br />
+          Computer Science Building, 0357<br />
+          Phone: +43 732 2468 6635  (secretary: 6630)<br />
+          Fax: +43 732 2468 6632
+          </li>
+
+          {% if site.email %}
+          <li><i class="fa-li fa fa-envelope-o"></i>
+            <a href="mailto:{{ site.email }}">
+              <i class="mail-icon-item"></i>
+             marc.streit@jku.at
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li><i class="fa-li fa fa-twitter"></i>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              @marc_streit
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.github_username %}
+          <li><i class="fa-li fa fa-github"></i>
+            <a href="https://github.com/{{ site.github_username }}">
+              mstreit
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.linkedin_id %}
+          <li><i class="fa-li fa fa-graduation-cap"></i>
+            <a href="http://http://scholar.google.com/citations?user{ site.linkedin-id }}">
+              Google Scholar
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.linkedin_id %}
+          <li><i class="fa-li fa fa-linkedin-square"></i>
+            <a href="https://www.linkedin.com/profile/view?id={ site.linkedin-id }}">
+              LinkedIn
+            </a>
+          </li>
+          {% endif %}
+          </ul>
+
+      <h1>Projects</h1>
+    <ul class="project-icon-list">
+      {% for project in site.data.projects %}
+      <li><a href="{{ site.baseurl }}{{ project.url}}">{{ project.name }}</a><br>{{ project.title }}</li>
+      {% endfor %}
+    </ul>
+
+      <!--h1>Collaborators</h1>
+      <ul class="institution-icon-list">
+      </ul-->
+
+  </article>

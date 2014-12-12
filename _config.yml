@@ -1,0 +1,45 @@
+# Site settings
+title: Marc Streit
+email: marc.streit@jku.at
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://marc-streit.com"
+twitter_username: marc_streit
+github_username:  mstreit
+google_scholar_user: l7TTSP0AAAAJ
+linkedin_id: 93766016
+safe: false
+lsi: false
+plugins: ./_plugins
+
+paper_content_url: http://data.caleydo.org/papers/
+caleydo_url: http://caleydo.org/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+sass:
+  sass_dir: _sass
+
+# exclude from build
+exclude: ["README.md", "Rakefile", "changelog.md", ".idea/", "Gemfile", "Gemfile.lock", "rvm.env"]
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  persons:
+    output: false
+    permalink: /persons/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+  thesis:
+    output: true
+    permalink: /thesis/:path/
+  videos:
+    output: true
+    permalink: /videos/:path/

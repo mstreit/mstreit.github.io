@@ -1,0 +1,280 @@
+---
+layout: default
+---
+<header class="publications-title">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<article class="publications-content">
+
+<table>
+  <tr>
+    <td>
+
+      <h1>Editorials</h1>
+
+      {% for publication in site.data.editorials reversed %}
+
+      <div class="paper-list-block">
+
+        <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
+                                                               class="cover-image-small"
+                                                               src="{{ publication.image }}"></a>
+
+        <p>
+          {% for author in publication.authors %}
+
+          {% assign known = false %}
+          {% for person in site.persons %}
+          {% if author == person.key %}
+        <span class="paper-author">
+          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+        </span>
+          {% assign known = true %}
+          {% endif %}
+          {% endfor %}
+
+          {% if known == false %}
+        <span class="paper-author">
+          {{ author }}{% if author != publication.authors.last %}, {% endif %}
+        </span>
+          {% endif %}
+
+          {% endfor %}
+          <br/>
+          <b> <a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
+          {{ publication.journal }}, {{publication.year}}
+
+          <br/>
+        </p>
+
+        <p class="paper-link">
+
+      <span style="float: left;">
+        <i class="fa fa-external-link"></i>&nbsp;
+        {% if publication.doi %}
+          <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+        {% else %}
+          <a href="{{ publication.publisher }}">Publisher</a>
+        {% endif %}
+        &nbsp;
+      </span>
+
+        </p>
+
+      </div>
+
+      {% endfor %}
+
+    </td>
+    <td>
+      <h1>Commentaries</h1>
+
+      {% for publication in site.data.commentaries reversed %}
+
+      <div class="paper-list-block">
+
+        <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
+                                                               class="cover-image-small"
+                                                               src="{{ publication.image }}"></a>
+
+        <p>
+          {% for author in publication.authors %}
+
+          {% assign known = false %}
+          {% for person in site.persons %}
+          {% if author == person.key %}
+        <span class="paper-author">
+          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+        </span>
+          {% assign known = true %}
+          {% endif %}
+          {% endfor %}
+
+          {% if known == false %}
+        <span class="paper-author">
+          {{ author }}{% if author != publication.authors.last %}, {% endif %}
+        </span>
+          {% endif %}
+
+          {% endfor %}
+          <br/>
+          <b> <a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
+          {{ publication.journal }}, {{publication.year}}
+        </p>
+
+        <p class="paper-link">
+
+      <span style="float: left;">
+        <i class="fa fa-external-link"></i>&nbsp;
+        {% if publication.doi %}
+          <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+        {% else %}
+          <a href="{{ publication.publisher }}">Publisher</a>
+        {% endif %}
+        &nbsp;
+      </span>
+
+        </p>
+
+      </div>
+
+      {% endfor %}
+
+    </td>
+  </tr>
+</table>
+
+<h1>Peer-Reviewed Journal and Conference Papers</h1>
+
+{% for publication in site.publications reversed %}
+
+<div class="paper-list-block">
+
+  <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
+                                                         class="paper-image-small"
+                                                         src="{{ publication.image }}"></a>
+
+  <p>
+    {% for author in publication.authors %}
+
+    {% assign known = false %}
+    {% for person in site.persons %}
+    {% if author == person.key %}
+        <span class="paper-author">
+          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+        </span>
+    {% assign known = true %}
+    {% endif %}
+    {% endfor %}
+
+    {% if known == false %}
+        <span class="paper-author">        
+          {{ author }}{% if author != publication.authors.last %}, {% endif %}
+        </span>
+    {% endif %}
+
+    {% endfor %}
+    <br/>
+
+    <b> <a href="{{ site.caleydo_url }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
+    {{ publication.journal }}, {{publication.year}}
+
+  <p class="paper-link">
+
+      <span style="float: left;">
+        {% if publication.pdf %}
+          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.pdf }}">PDF</a>
+        {% endif %}
+        &nbsp;
+
+        <i class="fa fa-external-link"></i>&nbsp;
+        {% if publication.doi %}
+          <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+        {% else %}
+          <a href="{{ publication.publisher }}">Publisher</a>
+        {% endif %}
+        &nbsp;
+
+          {% for video in site.videos %}
+        {% if video.key == publication.video %}
+          <i class="fa fa-youtube"></i>&nbsp; <a href="http://www.youtube.com//watch?v={{video.youtube-id}}">YouTube</a>
+          &nbsp;
+          <i class="fa fa-file-video-o"></i> &nbsp;<a href="{{site.paper_content_url}}{{video.file}}">Video</a>
+        {% endif %}
+        {% endfor %}
+        &nbsp;
+
+        {%if publication.bibtex %}
+          <i class="fa fa-download"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.bibtex }}">BibTeX</a>
+        {% endif %}
+        &nbsp;
+      </span>
+
+      <span style="float: right;">
+        {% if publication.award %}
+        <div class="award">
+          <i class="fa fa-trophy"></i>&nbsp;{{publication.award}}
+        </div>
+        {% endif %}
+      </span>
+  </p>
+
+</div>
+
+{% endfor %}
+
+<h1>Theses </h1>
+
+{% for thesis in site.data.theses %}
+
+  <p>{{thesis.type}}<br/>
+    <b> <a href="{{ site.paper_content_url }}{{ thesis.pdf }}">{{ thesis.title }}</a></b><br/>
+    {{ thesis.institution }}, {{thesis.date}}<br/>
+    Supervision: <i>{{ thesis.supervision }}</i>
+  </p>
+
+<!--p class="paper-link">
+
+      <span style="float: left;">
+        {% if thesis.pdf %}
+          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.paper_content_url}}{{ thesis.pdf }}">PDF</a>
+        {% endif %}
+        &nbsp;
+
+        {%if thesis.bibtex %}
+          <i class="fa fa-download"></i>&nbsp; <a href="{{site.paper_content_url}}{{ thesis.bibtex }}">BibTeX</a>
+        {% endif %}
+        &nbsp;
+      </span>
+</p-->
+
+{% endfor %}
+
+<h1>Extended Abstracts and Posters</h1>
+
+{% for publication in site.data.posters reversed %}
+
+  <p>
+    {% for author in publication.authors %}
+
+    {% assign known = false %}
+    {% for person in site.persons %}
+    {% if author == person.key %}
+        <span class="paper-author">
+          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+        </span>
+    {% assign known = true %}
+    {% endif %}
+    {% endfor %}
+
+    {% if known == false %}
+        <span class="paper-author">
+          {{ author }}{% if author != publication.authors.last %}, {% endif %}
+        </span>
+    {% endif %}
+
+    {% endfor %}
+    <br/>
+
+    <b> <a href="{{ site.caleydo_url }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
+    {{ publication.journal }}, {{publication.year}}
+
+  <!--p class="paper-link">
+
+      <span style="float: left;">
+        {% if publication.abstract-pdf %}
+          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.abstract-pdf }}">PDF</a>
+        {% endif %}
+        &nbsp;
+        {% if publication.poster-pdf %}
+          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.poster-pdf }}">PDF</a>
+        {% endif %}
+        &nbsp;
+      </span>
+  </p-->
+
+{% endfor %}
+
+
+</article>

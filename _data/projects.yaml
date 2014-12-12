@@ -1,0 +1,17 @@
+- title: Heterogeneous Data Visualization
+  name: Caleydo
+  standfirst: Caleydo is an open source visual analysis framework targeted at biomolecular data.
+  teaser: caleydo.png
+  url: http://www.caleydo.org/
+
+- title: Visual Analysis of Cloud-Based Networks
+  name: Pipes-vs-Dams
+  standfirst: Privacy preserving visual dynamic network analysis for advanced system monitoring on multiple scales.
+  teaser: pvd.png
+  url: http://www.pipes-vs-dams.at
+
+- title: Show relationships
+  name: Visual Linking & Hidden Content
+  standfirst: Visualizing relationships between hidden and visible content in desktop environments.
+  teaser: linking.png
+  url: http://www.caleydo.org/projects/linking/

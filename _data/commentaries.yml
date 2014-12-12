@@ -1,0 +1,10 @@
+- title: "Points of View: Bar Charts and Box Plots"
+  journal: Nature Methods 11, 117
+  year: 2014
+  authors:
+  - streit
+  - gehlenborg
+  image: /assets/images/covers/2014_nature-methods.gif
+  doi: 10.1038/nmeth.2807
+  # use publisher only if no doi is available
+  publisher:

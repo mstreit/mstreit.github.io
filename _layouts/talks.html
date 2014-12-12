@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<header class="talks-title">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<article class="publications-content">
+
+  <h1>Invited Talks</h1>
+  <table class="talks-table">
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for talk in site.data.talks %}
+    <tr>
+      <td>{{ talk.date }}</td>
+      <td><i>{{ talk.title }}</i><br />{{ talk.event }}</td>
+      <td>{{ talk.location }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h2>Tutorials</h2>
+  <table class="talks-table">
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for tut in site.data.tutorials %}
+    <tr>
+      <td>{{ tut.date }}</td>
+      <td>{{ tut.authors }}<br /><i>{{ tut.title }}</i><br />{{ tut.event }}<br /><a href="{{ tut.website }}">{{ tut.website }}</a></td>
+      <td>{{ tut.location }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+</article>

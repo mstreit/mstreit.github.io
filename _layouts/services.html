@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<header class="services-title">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<article class="publications-content">
+
+  <h1>Awards and Scholarships</h1>
+
+  <table class="awards-table">
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for award in site.data.awards %}
+    <tr>
+      <td class="awards-date">{{ award.date }}</td>
+      <td>{{ award.kind }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h1>Conference and Journal Functions</h1>
+
+  <table class="functions-table">
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for function in site.data.functions %}
+    <tr>
+      <td class="functions-date">{{ function.years }}</td>
+      <td>{{ function.role }}, {{ function.for }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h1>Reviewing</h1>
+
+  <table class="functions-table">
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for review in site.data.reviewing %}
+    <tr>
+      <td class="functions-date">{{ review.years }}</td>
+      <td>{{ review.for }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h1>Memberships in Professional Societies and Interest Groups</h1>
+
+  <table class="memberships-table">
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for membership in site.data.memberships %}
+    <tr>
+      <td>{{ membership.kind }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+</article>

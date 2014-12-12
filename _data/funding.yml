@@ -1,0 +1,13 @@
+- agency: Austrian Research Promotion Agency (FFG)
+  website: https://www.ffg.at/en
+  logo: ffg.png
+  title: "PIPES-VS-DAMS: Privacy Preserving Visual Dynamic Network Analysis for Advanced System Monitoring on Multiple Scales"
+  recipient: jku
+  pi: streit
+  copi:
+  partners: RISC GmbH, MOWIS GmbH, KT-Net GmbH
+  time: 2013-2016
+  program: FFG IKT der Zukunft
+  project-link: http://www.pipes-vs-dams.at/
+  number: 840232
+  active: true

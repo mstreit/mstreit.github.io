@@ -19,7 +19,7 @@ layout: default
 
         <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
                                                                class="cover-image-small"
-                                                               src="{{ publication.image }}"></a>
+                                                               src="{{ site.baseurl }}{{ publication.image }}"></a>
 
         <p>
           {% for author in publication.authors %}
@@ -76,7 +76,7 @@ layout: default
 
         <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
                                                                class="cover-image-small"
-                                                               src="{{ publication.image }}"></a>
+                                                               src="{{ site.baseurl }}{{ publication.image }}"></a>
 
         <p>
           {% for author in publication.authors %}

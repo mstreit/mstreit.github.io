@@ -95,7 +95,7 @@ layout: default
       <h1>Projects</h1>
     <ul class="project-icon-list">
       {% for project in site.data.projects %}
-      <li><a href="{{ site.baseurl }}{{ project.url}}">{{ project.name }}</a><br>{{ project.title }}</li>
+      <li><a href="{{ project.url}}">{{ project.name }}</a><br>{{ project.title }}</li>
       {% endfor %}
     </ul>
 

@@ -616,6 +616,7 @@ ul.post-list {
   height: 170px;
   float: left;
   margin-right: 20px;
+  margin-top: 10px;
   @include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
   @include border-radius( 3px );
 }

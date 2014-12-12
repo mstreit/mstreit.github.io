@@ -11,3 +11,17 @@
   project-link: http://www.pipes-vs-dams.at/
   number: 840232
   active: true
+
+- agency: Federal Ministry of Science, Research and Economy
+  website:
+  logo:
+  title: "Austrian Teaching Cooperation in Visual Computing"
+  recipient: jku
+  pi: streit
+  copi:
+  partners: Graz University of Technology
+  time: 2013-2016
+  program:
+  project-link:
+  number:
+  active: true

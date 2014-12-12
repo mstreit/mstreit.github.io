@@ -75,9 +75,9 @@ layout: default
           </li>
           {% endif %}
 
-          {% if site.linkedin_id %}
+          {% if site.google_scholar_user %}
           <li><i class="fa-li fa fa-graduation-cap"></i>
-            <a href="http://http://scholar.google.com/citations?user{ site.linkedin-id }}">
+            <a href="http://scholar.google.com/citations?user={{ site.google_scholar_user }}">
               Google Scholar
             </a>
           </li>
@@ -85,7 +85,7 @@ layout: default
 
           {% if site.linkedin_id %}
           <li><i class="fa-li fa fa-linkedin-square"></i>
-            <a href="https://www.linkedin.com/profile/view?id={ site.linkedin-id }}">
+            <a href="https://www.linkedin.com/profile/view?id={{ site.linkedin_id }}">
               LinkedIn
             </a>
           </li>

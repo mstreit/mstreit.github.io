@@ -19,20 +19,16 @@ layout: default
 
     <h1>Recent Events <span class="right-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
-    <ul class="post-list">
+    <table class="posts-table">
+      <tr><th class="post-date"></th><th></th></tr>
       {% for post in site.posts limit:4 %}
-      <li class="post-list-item">
-        <div class="post-list-title">
-          {{ post.date | date: "%b %Y" }} | {{ post.title }}
-        </div>
-        <!--div class="post-list-excerpt">
-          {{ post.excerpt }}
-          <a class="post-list-link" href="{{ site.baseurl }}{{ post.url }}">More...</a>
-        </div-->
-      </li>
+      <tr>
+        <td class="post-date">{{ post.date | date: "%Y-%m" }}</td>
+        <td>{{ post.title }}</td>
+      </tr>
       {% endfor %}
-    </ul>
-    <p><a href="news">Earlier news ...</a></p>
+    </table>
+    <!--p><a href="news">Earlier news ...</a></p-->
 
   </article>
 
@@ -91,6 +87,7 @@ layout: default
           </li>
           {% endif %}
           </ul>
+          <br />
 
       <h1>Projects</h1>
     <ul class="project-icon-list">

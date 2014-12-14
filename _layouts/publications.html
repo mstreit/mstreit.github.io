@@ -209,7 +209,11 @@ layout: default
 {% for thesis in site.data.theses %}
 
   <p>{{thesis.type}}<br/>
-    <b> <a href="{{ site.paper_content_url }}{{ thesis.pdf }}">{{ thesis.title }}</a></b><br/>
+    {% if thesis.pdf %}
+    <b><a href="{{ site.paper_content_url }}{{ thesis.pdf }}">{{ thesis.title }}</a></b><br/>
+    {% else %}
+    <b>{{ thesis.title }}</b><br/>
+    {% endif %}
     {{ thesis.institution }}, {{thesis.date}}<br/>
     Supervision: <i>{{ thesis.supervision }}</i>
   </p>

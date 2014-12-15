@@ -1,5 +1,5 @@
 ---
 layout: services
-title: Services & Awards
+title: MARC STREIT | Services & Awards
 permalink: /services/
 ---

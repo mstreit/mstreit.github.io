@@ -571,6 +571,7 @@ ul.post-list {
   .paper-image-small {
     height: 100px;
     float: left;
+    margin-left: 5px;
     margin-right: 20px;
     @include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
     @include border-radius( 3px );
@@ -603,7 +604,14 @@ ul.post-list {
 }
 
 .paper-link {
-  font-size: $page-content-font-size;
+  font-size: $page-content-font-size * 0.9;
+  line-height: $page-content-font-size * 0.85;
+  padding-bottom: 1px;
+  padding-left: 6px;
+}
+
+.poster-item{
+  margin-left: 5px;
 }
 
 .award {

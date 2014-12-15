@@ -4,15 +4,16 @@ email: marc.streit@jku.at
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 baseurl: "/website-marc"
 url: "http://marc-streit.com"
-twitter_username: marc_streit
-github_username:  mstreit
-google_scholar_user: l7TTSP0AAAAJ
-linkedin_id: 93766016
+twitter: marc_streit
+github:  mstreit
+google_scholar: l7TTSP0AAAAJ
+linkedin: 93766016
 safe: false
 lsi: false
 plugins: ./_plugins
 
 paper_content_url: http://data.caleydo.org/papers/
+poster_content_url: http://data.caleydo.org/posters/
 caleydo_url: http://caleydo.org/
 
 # Build settings

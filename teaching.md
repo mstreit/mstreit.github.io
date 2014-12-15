@@ -1,5 +1,5 @@
 ---
 layout: teaching
-title: Teaching
+title: MARC STREIT | Teaching
 permalink: /teaching/
 ---

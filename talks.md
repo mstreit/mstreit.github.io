@@ -1,5 +1,5 @@
 ---
 layout: talks
-title: Talks
+title: MARC STREIT | Talks
 permalink: /talks/
 ---

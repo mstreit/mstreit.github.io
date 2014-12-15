@@ -2,7 +2,7 @@
 layout: default
 ---
   <header class="home-title">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title | remove: "MARC STREIT | " }}</h1>
   </header>
 
   <article class="home-content-main">
@@ -55,33 +55,33 @@ layout: default
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.twitter %}
           <li><i class="fa-li fa fa-twitter"></i>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
+            <a href="https://twitter.com/{{ site.twitter }}">
               @marc_streit
             </a>
           </li>
           {% endif %}
 
-          {% if site.github_username %}
+          {% if site.github %}
           <li><i class="fa-li fa fa-github"></i>
-            <a href="https://github.com/{{ site.github_username }}">
+            <a href="https://github.com/{{ site.github }}">
               mstreit
             </a>
           </li>
           {% endif %}
 
-          {% if site.google_scholar_user %}
+          {% if site.google_scholar %}
           <li><i class="fa-li fa fa-graduation-cap"></i>
-            <a href="http://scholar.google.com/citations?user={{ site.google_scholar_user }}">
+            <a href="http://scholar.google.com/citations?user={{ site.google_scholar }}">
               Google Scholar
             </a>
           </li>
           {% endif %}
 
-          {% if site.linkedin_id %}
+          {% if site.linkedin %}
           <li><i class="fa-li fa fa-linkedin-square"></i>
-            <a href="https://www.linkedin.com/profile/view?id={{ site.linkedin_id }}">
+            <a href="https://www.linkedin.com/profile/view?id={{ site.linkedin }}">
               LinkedIn
             </a>
           </li>

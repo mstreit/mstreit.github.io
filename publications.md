@@ -1,6 +1,6 @@
 ---
 layout: publications
-title: Publications
+title: MARC STREIT | Publications
 tag: publications
 permalink: /publications/
 ---

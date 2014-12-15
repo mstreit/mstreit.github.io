@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Projects
+title: MARC STREIT | Projects
 permalink: /projects/
 ---
 

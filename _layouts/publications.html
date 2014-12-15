@@ -163,6 +163,11 @@ layout: default
   <p class="paper-link">
 
       <span style="float: left;">
+        {% if publication.url %}
+          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ site.caleydo_url }}{{ publication.url }}">Paper Website</a>
+        {% endif %}
+        &nbsp;
+
         {% if publication.pdf %}
           <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.pdf }}">PDF</a>
         {% endif %}
@@ -237,7 +242,7 @@ layout: default
 
 <h1>Extended Abstracts and Posters</h1>
 
-{% for publication in site.data.posters reversed %}
+{% for publication in site.data.posters %}
 
   <p>
     {% for author in publication.authors %}

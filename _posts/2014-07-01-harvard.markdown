@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Visiting Professor at Harvard University (until 10-2014)
+title:  Visiting Professor at Harvard University (until 2014-10)
 date:   2014-07-01 20:00:00
 categories: event
 ---

@@ -573,9 +573,14 @@ ul.post-list {
     float: left;
     margin-left: 5px;
     margin-right: 20px;
-    @include box-shadow( 1px, 1px, 4px, transparentize( black, 0.75) );
+
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+
+    @include box-shadow( 2px, 2px, 4px, transparentize( black, 0.75) );
     @include border-radius( 3px );
-    /*
+   /*
     @include span-columns(2);
     @include single-column-content();
     */
@@ -607,6 +612,14 @@ ul.post-list {
   font-size: $page-content-font-size * 0.9;
   line-height: $page-content-font-size * 0.85;
   padding-bottom: 1px;
+  padding-left: 3px;
+  float: left;
+}
+
+.poster-link {
+  font-size: $page-content-font-size;
+  line-height: $page-content-font-size * 0.85;
+  padding-bottom: 1px;
   padding-left: 6px;
 }
 
@@ -616,8 +629,10 @@ ul.post-list {
 
 .award {
   font-style: italic;
-  text-align: right;
+  float: right;
   color: orange;
+  vertical-align: top;
+  line-height: $page-content-font-size * 0.85;
 }
 
 .portrait-image {

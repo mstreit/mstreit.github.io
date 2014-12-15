@@ -131,9 +131,15 @@ layout: default
 
 <div class="paper-list-block">
 
+
+  {% if publication.non-caleydo-paper %}
+  <img alt="{{ publication.shortname }} screenshot" class="paper-image-small"  src="{{ publication.image }}">
+  {% else %}
   <a href="{{ site.baseurl }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
                                                          class="paper-image-small"
                                                          src="{{ publication.image }}"></a>
+  {% endif %}
+
 
   <p>
     {% for author in publication.authors %}
@@ -157,13 +163,18 @@ layout: default
     {% endfor %}
     <br/>
 
-    <b> <a href="{{ site.caleydo_url }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
+    {% if publication.non-caleydo-paper %}
+    <b>{{ publication.title }}</b><br/>
+    {% else %}
+    <b><a href="{{ site.caleydo_url }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
+    {% endif %}
+
     {{ publication.journal }}, {{publication.year}}
 
   <p class="paper-link">
 
       <span style="float: left;">
-        {% if publication.url %}
+        {% if publication.non-caleydo-paper != true %}
           <i class="fa fa-home"></i>&nbsp; <a href="{{ site.caleydo_url }}{{ publication.url }}">Paper Website</a>
         &nbsp;
         {% endif %}
@@ -182,10 +193,15 @@ layout: default
         &nbsp;
         {% endif %}
 
-          {% for video in site.videos %}
-        {% if video.key == publication.video %}
+        {% for video in site.videos %}
+        {% if video.key == publication.video and video.youtube-id %}
           <i class="fa fa-youtube"></i>&nbsp; <a href="http://www.youtube.com//watch?v={{video.youtube-id}}">YouTube</a>
-          &nbsp;
+        &nbsp;
+        {% endif %}
+        {% endfor %}
+
+        {% for video in site.videos %}
+        {% if video.key == publication.video %}
           <i class="fa fa-file-video-o"></i> &nbsp;<a href="{{site.paper_content_url}}{{video.file}}">Video</a>
         &nbsp;
         {% endif %}
@@ -195,16 +211,16 @@ layout: default
           <i class="fa fa-download"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.bibtex }}">BibTeX</a>
         &nbsp;
         {% endif %}
-      </span>
 
-      <span style="float: right;">
-        {% if publication.award %}
-        <div class="award">
-          <i class="fa fa-trophy"></i>&nbsp;{{publication.award}}
-        </div>
-        {% endif %}
       </span>
   </p>
+
+  {% if publication.award %}
+  <span class="award">
+    {{publication.award}}&nbsp;<i class="fa fa-trophy"></i>
+  </span>
+  <div style="clear: both;"></div>
+  {% endif %}
 
 </div>
 
@@ -256,7 +272,7 @@ layout: default
     {{ publication.journal }}, {{publication.year}}
 
   {% if publication.abstract-pdf or publication.poster-pdf %}
-  <p class="paper-link">
+  <p class="poster-link">
 
       <span style="float: left;">
         {% if publication.abstract-pdf %}

@@ -1,0 +1,38 @@
+---
+layout: publication
+title: "Interactive Visualization of Complex Graphs"
+key: 2007_cescg_interactive-vis-complex-graphs
+permalink: /publications/2007_cescg_interactive-vis-complex-graphs/
+type: paper
+
+shortname:
+image: /assets/images/papers/2007_cescg_interactive-vis-complex-graphs.png
+
+authors:
+- streit
+
+journal: Proceedings of the Central European Seminar on Computer Graphics (CESCG '07)
+year: 2007
+award: 
+
+doi: 
+# use publisher only if no doi is available
+publisher: 
+
+non-caleydo-paper: true
+
+project:
+
+video:
+preview-video:
+
+
+pdf: 2007_cescg_interactive-vis-complex-graphs.pdf
+supplement:
+bibtex: 2007_cescg_interactive-vis-complex-graphs.bib
+
+abstract: 
+
+---
+
+

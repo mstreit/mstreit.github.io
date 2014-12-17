@@ -184,11 +184,12 @@ layout: default
         &nbsp;
         {% endif %}
 
-        <i class="fa fa-external-link"></i>&nbsp;
         {% if publication.doi %}
+        <i class="fa fa-external-link"></i>&nbsp;
           <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
         &nbsp;
-        {% else %}
+        {% elsif publication.publisher %}
+        <i class="fa fa-external-link"></i>&nbsp;
           <a href="{{ publication.publisher }}">Publisher</a>
         &nbsp;
         {% endif %}

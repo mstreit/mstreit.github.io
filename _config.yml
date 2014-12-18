@@ -1,7 +1,7 @@
 # Site settings
 title: Marc Streit
 email: marc.streit@jku.at
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Marc Streit, Assistant Professor @ Johannes Kepler University Linz, Austria. His scientific ares of interest include information visualization, visual analytics, and biological data visualization."
 baseurl: "/website-marc"
 url: "http://marc-streit.com"
 twitter: marc_streit

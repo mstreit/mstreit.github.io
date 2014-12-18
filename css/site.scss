@@ -96,7 +96,11 @@ $large-display: new-breakpoint(min-width 1024px $large-display-columns);
   @include media($small-display) {
     margin-right: 0px;
     height: 30px;
-  }    
+  }
+
+  a {
+    color: #393939;
+  }
 }
 
 .navigation-buttons {

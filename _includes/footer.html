@@ -11,29 +11,39 @@
         </li>
         {% endif %}
 
-        {% if site.facebook_page %}
+        {% if site.twitter %}
         <li>
-          <a href="https://facebook.com/pages/{{ site.facebook_page }}">
-            <i class="fa fa-lg fa-facebook"></i>
-            <span class="footer-text">Facebook</span>
-          </a>
-        </li>
-        {% endif %}
-
-        {% if site.twitter_username %}
-        <li>
-          <a href="https://twitter.com/{{ site.twitter_username }}">
+          <a href="https://twitter.com/{{ site.twitter }}">
             <i class="fa fa-lg fa-twitter"></i>
             <span class="footer-text">Twitter</span>
           </a>
         </li>
         {% endif %}
 
-        {% if site.github_username %}
+
+        {% if site.google_scholar %}
         <li>
-          <a href="https://github.com/{{ site.github_username }}">
+          <a href="http://scholar.google.com/citations?user={{ site.google_scholar }}">
+            <i class="fa fa-graduation-cap"></i>
+            <span class="footer-text">Google Scholar</span>
+          </a>
+        </li>
+        {% endif %}
+
+        {% if site.github %}
+        <li>
+          <a href="https://github.com/{{ site.github }}">
             <i class="fa fa-lg fa-github"></i>
             <span class="footer-text">GitHub</span>
+          </a>
+        </li>
+        {% endif %}
+
+        {% if site.linkedin %}
+        <li>
+          <a href="https://www.linkedin.com/profile/view?id={{ site.linkedin }}">
+            <i class="fa fa-linkedin-square"></i>
+            <span class="footer-text">LinkedIn</span>
           </a>
         </li>
         {% endif %}

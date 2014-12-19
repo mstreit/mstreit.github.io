@@ -21,7 +21,7 @@ layout: default
 
     <table class="posts-table">
       <tr><th class="post-date"></th><th></th></tr>
-      {% for post in site.posts limit:4 %}
+      {% for post in site.posts limit:6 %}
       <tr>
         <td class="post-date">{{ post.date | date: "%Y-%m" }}</td>
         <td>{{ post.title }}</td>

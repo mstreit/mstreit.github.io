@@ -3,6 +3,7 @@
   standfirst: Caleydo is an open source visual analysis framework targeted at biomolecular data.
   teaser: caleydo.png
   url: http://www.caleydo.org/
+  logo: /assets/images/logos/caleydo.svg
 
 - title: Visual Analysis of Cloud-Based Networks
   name: Pipes-vs-Dams

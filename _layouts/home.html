@@ -36,58 +36,68 @@ layout: default
 
       <h1>Contact</h1>
       <ul class="contact-list fa-ul">
-          <li><i class="fa-li fa fa-home"></i>
+
+        <li><i class="fa-li fa fa-home"></i>
           <p>Assist.-Prof. Dipl.-Ing. Dr.techn. <b>Marc Streit</b></p>
+        </li>
+
+        <li><i class="fa-li fa fa-home"></i>
           Johannes Kepler University Linz<br />
           Institute of Computer Graphics<br />
           Altenberger Straße 69<br />
-          Computer Science Building, 0357<br />
-          Phone: +43 732 2468 6635  (secretary: 6630)<br />
-          Fax: +43 732 2468 6632
-          </li>
+          Computer Science Building, 0357
+        </li>
 
-          {% if site.email %}
-          <li><i class="fa-li fa fa-envelope-o"></i>
-            <a href="mailto:{{ site.email }}">
-              <i class="mail-icon-item"></i>
-             marc.streit@jku.at
-            </a>
-          </li>
-          {% endif %}
+        <li><i class="fa-li fa fa-phone"></i>
+          <p>+43 732 2468 6635  (secretary: 6630)</b></p>
+        </li>
 
-          {% if site.twitter %}
-          <li><i class="fa-li fa fa-twitter"></i>
-            <a href="https://twitter.com/{{ site.twitter }}">
-              @marc_streit
-            </a>
-          </li>
-          {% endif %}
+        <li><i class="fa-li fa fa-fax"></i>
+          <p>+43 732 2468 6632</p>
+        </li>
 
-          {% if site.github %}
-          <li><i class="fa-li fa fa-github"></i>
-            <a href="https://github.com/{{ site.github }}">
-              mstreit
-            </a>
-          </li>
-          {% endif %}
+        {% if site.email %}
+        <li><i class="fa-li fa fa-envelope-o"></i>
+          <a href="mailto:{{ site.email }}">
+            <i class="mail-icon-item"></i>
+            marc.streit@jku.at
+          </a>
+        </li>
+        {% endif %}
 
-          {% if site.google_scholar %}
-          <li><i class="fa-li fa fa-graduation-cap"></i>
-            <a href="http://scholar.google.com/citations?user={{ site.google_scholar }}">
-              Google Scholar
-            </a>
-          </li>
-          {% endif %}
+        {% if site.twitter %}
+        <li><i class="fa-li fa fa-twitter"></i>
+          <a href="https://twitter.com/{{ site.twitter }}">
+            @marc_streit
+          </a>
+        </li>
+        {% endif %}
 
-          {% if site.linkedin %}
-          <li><i class="fa-li fa fa-linkedin-square"></i>
-            <a href="https://www.linkedin.com/profile/view?id={{ site.linkedin }}">
-              LinkedIn
-            </a>
-          </li>
-          {% endif %}
-          </ul>
-          <br />
+        {% if site.github %}
+        <li><i class="fa-li fa fa-github"></i>
+          <a href="https://github.com/{{ site.github }}">
+            mstreit
+          </a>
+        </li>
+        {% endif %}
+
+        {% if site.google_scholar %}
+        <li><i class="fa-li fa fa-graduation-cap"></i>
+          <a href="http://scholar.google.com/citations?user={{ site.google_scholar }}">
+            Google Scholar
+          </a>
+        </li>
+        {% endif %}
+
+        {% if site.linkedin %}
+        <li><i class="fa-li fa fa-linkedin-square"></i>
+          <a href="https://www.linkedin.com/profile/view?id={{ site.linkedin }}">
+            LinkedIn
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    <br />
 
       <h1>Projects</h1>
     <ul class="project-icon-list">

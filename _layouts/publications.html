@@ -7,6 +7,8 @@ layout: default
 
 <article class="publications-content">
 
+<p>
+  <br>
 <table>
   <tr>
     <td>
@@ -14,12 +16,11 @@ layout: default
       <h1>Editorials</h1>
 
       {% for publication in site.data.editorials reversed %}
-
       <div class="paper-list-block">
 
         <a href="{{ publication.publisher }}"><img alt="{{ publication.shortname }} screenshot"
-                                                               class="cover-image-small"
-                                                               src="{{ site.baseurl }}{{ publication.image }}"></a>
+                                                   class="cover-image-small"
+                                                   src="{{ site.baseurl }}{{ publication.image }}"></a>
 
         <p>
           {% for author in publication.authors %}
@@ -49,17 +50,15 @@ layout: default
         </p>
 
         <p class="paper-link">
-
-      <span style="float: left;">
-        <i class="fa fa-external-link"></i>&nbsp;
-        {% if publication.doi %}
-          <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
-        {% else %}
-          <a href="{{ publication.publisher }}">Publisher</a>
-        {% endif %}
-        &nbsp;
-      </span>
-
+          <span style="float: left;">
+            <i class="fa fa-external-link"></i>&nbsp;
+            {% if publication.doi %}
+              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+            {% else %}
+              <a href="{{ publication.publisher }}">Publisher</a>
+            {% endif %}
+            &nbsp;
+          </span>
         </p>
 
       </div>
@@ -104,17 +103,15 @@ layout: default
         </p>
 
         <p class="paper-link">
-
-      <span style="float: left;">
-        <i class="fa fa-external-link"></i>&nbsp;
-        {% if publication.doi %}
-          <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
-        {% else %}
-          <a href="{{ publication.publisher }}">Publisher</a>
-        {% endif %}
-        &nbsp;
-      </span>
-
+          <span style="float: left;">
+            <i class="fa fa-external-link"></i>&nbsp;
+            {% if publication.doi %}
+              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+            {% else %}
+              <a href="{{ publication.publisher }}">Publisher</a>
+            {% endif %}
+            &nbsp;
+          </span>
         </p>
 
       </div>
@@ -124,6 +121,7 @@ layout: default
     </td>
   </tr>
 </table>
+</p>
 
 <h1>Peer-Reviewed Journal and Conference Papers</h1>
 
@@ -231,15 +229,15 @@ layout: default
 
 {% for thesis in site.data.theses %}
 
-  <p class="poster-item">{{thesis.type}}<br/>
-    {% if thesis.pdf %}
-    <b><a href="{{ site.paper_content_url }}{{ thesis.pdf }}">{{ thesis.title }}</a></b><br/>
-    {% else %}
-    <b>{{ thesis.title }}</b><br/>
-    {% endif %}
-    {{ thesis.institution }}, {{thesis.date}}<br/>
-    Supervision: <i>{{ thesis.supervision }}</i>
-  </p>
+<p class="poster-item">{{thesis.type}}<br/>
+  {% if thesis.pdf %}
+  <b><a href="{{ site.paper_content_url }}{{ thesis.pdf }}">{{ thesis.title }}</a></b><br/>
+  {% else %}
+  <b>{{ thesis.title }}</b><br/>
+  {% endif %}
+  {{ thesis.institution }}, {{thesis.date}}<br/>
+  Supervision: <i>{{ thesis.supervision }}</i>
+</p>
 
 {% endfor %}
 
@@ -247,33 +245,33 @@ layout: default
 
 {% for publication in site.data.posters %}
 
-  <p class="poster-item">
-    {% for author in publication.authors %}
+<p class="poster-item">
+  {% for author in publication.authors %}
 
-    {% assign known = false %}
-    {% for person in site.persons %}
-    {% if author == person.key %}
+  {% assign known = false %}
+  {% for person in site.persons %}
+  {% if author == person.key %}
         <span class="paper-author">
           <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
         </span>
-    {% assign known = true %}
-    {% endif %}
-    {% endfor %}
+  {% assign known = true %}
+  {% endif %}
+  {% endfor %}
 
-    {% if known == false %}
+  {% if known == false %}
         <span class="paper-author">
           {{ author }}{% if author != publication.authors.last %}, {% endif %}
         </span>
-    {% endif %}
+  {% endif %}
 
-    {% endfor %}
-    <br/>
+  {% endfor %}
+  <br/>
 
-    <b>{{ publication.title }}</b><br/>
-    {{ publication.journal }}, {{publication.year}}
+  <b>{{ publication.title }}</b><br/>
+  {{ publication.journal }}, {{publication.year}}
 
   {% if publication.abstract-pdf or publication.poster-pdf %}
-  <p class="poster-link">
+<p class="poster-link">
 
       <span style="float: left;">
         {% if publication.abstract-pdf %}
@@ -287,9 +285,9 @@ layout: default
         {% endif %}
 
       </span>
-  </p>
-  {% endif %}
-  <br/>
+</p>
+{% endif %}
+<br/>
 
 {% endfor %}
 

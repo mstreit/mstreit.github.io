@@ -20,7 +20,7 @@
 
 - role: Program Committee
   for: IEEE Conference on Information Visualization (InfoVis)
-  years: 2013 - 2014
+  years: 2013 - 2015
 
 - role: Program Committee
   for: Eurographics Conference on Visualization (EuroVis)
@@ -29,6 +29,10 @@
 - role: Program Committee
   for: Eurographics Conference on Visualization Short Papers (EuroVis Short Papers)
   years: 2014 - 2015
+
+- role: Program Committee
+  for: Eurographics Workshop on Visual Analytics (EuroVA)
+  years: 2015
 
 - role: Program Committee
   for: International Conference on Cognitive Computing and Data-driven Business (i-KNOW)

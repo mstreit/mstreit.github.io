@@ -26,11 +26,11 @@ non-caleydo-paper: true
 
 project: 
 
-video: 
+video: 2015_pacificvis_cloudgazer_video
 preview-video:
 
 
-pdf:
+pdf: 2015_pacificvis_cloudgazer.pdf
 supplement:
 bibtex:
 

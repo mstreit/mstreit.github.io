@@ -8,7 +8,6 @@ layout: default
 <article class="publications-content">
 
 <p>
-  <br>
 <table>
   <tr>
     <td>
@@ -69,11 +68,14 @@ layout: default
       {% endfor %}
 
     </td>
-    <td>
+    <td style="width:65%">
       <h1>Commentaries</h1>
 
+      <table>
+        <tr>
       {% for publication in site.data.commentaries reversed %}
 
+          <td style="padding-top:0px">
       <div class="paper-list-block">
 
         <a href="http://dx.doi.org/{{ publication.doi }}"><img alt="{{ publication.shortname }} screenshot"
@@ -122,8 +124,11 @@ layout: default
         </p>
 
       </div>
-
+          </td>
       {% endfor %}
+
+        </tr>
+      </table>
 
     </td>
   </tr>

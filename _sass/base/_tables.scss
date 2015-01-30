@@ -13,12 +13,12 @@ th {
 }
 
 td {
-  border-bottom: 1px solid $base-border-color;
+  //border-bottom: 1px solid $base-border-color;
   padding: ($base-line-height / 2) 0;
 }
 
 tr, td, th {
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 @mixin th-width($col, $width) {

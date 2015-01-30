@@ -5,6 +5,6 @@
   - streit
   - bimber
   image: /assets/images/covers/2013_ieee-computer_visual-analytics.png
-  doi:
+  doi: 10.1109/MC.2013.255
   # use publisher only if no doi is available
-  publisher: http://www.computer.org/csdl/mags/co/2013/07/index.html
+  pdf: http://www.computer.org/csdl/mags/co/2013/07/mco2013070020.pdf

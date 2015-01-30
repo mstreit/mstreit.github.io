@@ -53,11 +53,14 @@ layout: default
           <span style="float: left;">
             <i class="fa fa-external-link"></i>&nbsp;
             {% if publication.doi %}
-              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>&nbsp;
             {% else %}
-              <a href="{{ publication.publisher }}">Publisher</a>
+              <a href="{{ publication.publisher }}">Publisher</a>&nbsp;
             {% endif %}
-            &nbsp;
+
+            {% if publication.pdf %}
+              <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ publication.pdf }}">PDF</a>
+            {% endif %}
           </span>
         </p>
 
@@ -106,9 +109,13 @@ layout: default
           <span style="float: left;">
             <i class="fa fa-external-link"></i>&nbsp;
             {% if publication.doi %}
-              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>&nbsp;
             {% else %}
-              <a href="{{ publication.publisher }}">Publisher</a>
+              <a href="{{ publication.publisher }}">Publisher</a>&nbsp;
+            {% endif %}
+
+            {% if publication.pdf %}
+              <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ publication.pdf }}">PDF</a>
             {% endif %}
             &nbsp;
           </span>

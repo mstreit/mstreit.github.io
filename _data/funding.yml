@@ -6,11 +6,12 @@
   pi: streit
   copi:
   partners: RISC GmbH, MOWIS GmbH, KT-Net GmbH
-  time: 2013-2016
-  program: FFG IKT der Zukunft
+  time: 2013 - 2016
+  program: IKT der Zukunft program
   project-link: http://www.pipes-vs-dams.at/
   number: 840232
   active: true
+  amount: 410k EUR
 
 - agency: Federal Ministry of Science, Research and Economy
   website:
@@ -20,8 +21,55 @@
   pi: streit
   copi:
   partners: Graz University of Technology
-  time: 2013-2016
+  time: 2013 - 2016
   program:
   project-link:
   number:
   active: true
+  amount: 96k EUR
+
+- agency: Graz University of Technology
+  website:
+  logo:
+  title: "Future Lab Grant"
+  recipient: tug
+  pi:
+  copi:
+  partners:
+  time: 2011
+  program:
+  project-link:
+  number:
+  active: false
+  amount: 38k EUR
+
+- agency: Austrian Science Fund (FWF)
+  website:
+  logo:
+  title: "Caleydoplex - Information Exploration in Teams"
+  recipient: tug
+  pi:
+  copi:
+  partners:
+  time: 2010 - 2013
+  program: Stand-alone projects program
+  project-link:
+  number: P22902
+  active: false
+  amount: 225k  EUR
+
+- agency: Austrian Research Promotion Agency (FFG)
+  website:
+  logo:
+  title: "InGeneious - Visualization of Biomolecular and Clinical Data"
+  recipient: tug
+  pi:
+  copi:
+  partners:
+  time: 2009 - 2012
+  program: BRIDGE program
+  project-link:
+  number: 385567
+  active: false
+  amount: 180k EUR
+

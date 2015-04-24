@@ -17,7 +17,9 @@ layout: default
     {% for award in site.data.awards %}
     <tr>
       <td class="awards-date">{{ award.date }}</td>
-      <td>{{ award.kind }}</td>
+      <td>
+        {{ award.kind }}
+      </td>
     </tr>
     {% endfor %}
   </table>

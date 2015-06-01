@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Open Research Assistant Position
-link: http://data.caleydo.org/jobs/2015-04_JKU_ResearchAssistant.pdf
-date:   2015-04-22 20:00:00
+link: http://data.caleydo.org/jobs/2015-06_JKU_ResearchAssistant_en.pdf
+date:   2015-05-01 20:00:00
 categories: event
 ---

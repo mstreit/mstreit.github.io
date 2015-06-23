@@ -122,8 +122,8 @@
       <file leaf-file-name="funding.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_data/funding.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6535326" vertical-offset="644" max-vertical-offset="1410">
-              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.26494566" vertical-offset="0" max-vertical-offset="1410">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -855,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_data/funding.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6535326" vertical-offset="644" max-vertical-offset="1410">
-          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.26494566" vertical-offset="0" max-vertical-offset="1410">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -1,3 +1,18 @@
+- agency: Austrian Science Fund (FWF)
+  website:
+  logo:
+  title: "VisOnFire - Visual Analysis of Large and Heterogeneous Scientific Workflows for Analytical Provenance"
+  recipient: jku
+  pi:
+  copi:
+  partners:
+  time: 2015 - 2018
+  program:
+  project-link:
+  number: P27975-NBL
+  active: true
+  amount: 352k EUR
+
 - agency: Austrian Research Promotion Agency (FFG)
   website: https://www.ffg.at/en
   logo: ffg.png
@@ -72,18 +87,3 @@
   number: 385567
   active: false
   amount: 180k EUR
-
-- agency: Austrian Science Fund (FWF)
-  website:
-  logo:
-  title: "VisOnFire - Visual Analysis of Large and Heterogeneous Scientific Workflows for Analytical Provenance"
-  recipient: jku
-  pi:
-  copi:
-  partners:
-  time: 2015 - 2018
-  program:
-  project-link:
-  number: P27975-NBL
-  active: true
-  amount: 352k EUR

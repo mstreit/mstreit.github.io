@@ -1,6 +1,6 @@
 - title: Information Visualization
   institution: jku
-  contribution: Lecture and Lab
+  contribution: Lecture and lab
   years: Since 2012
 
 - title: Visual Analytics
@@ -25,8 +25,13 @@
 
 - title: Data Science (CS 109)
   institution: harvard
-  contribution: Lecture (Visualization part)
+  contribution: Lecture (visualization part)
   years: 2014
+
+- title: Data Visualization (BS1807)
+  institution: imperial
+  contribution: Lecture and lab (together with Andy Kirk)
+  years: 2016
 
 - title: Visual Analytics
   institution: fhs
@@ -60,7 +65,7 @@
 
 - title: "Accompanying Courses for Project Students: Introduction to Scientific Work, Presentation Techniques"
   institution: tug
-  contribution: Lecture and Lab
+  contribution: Lecture and lab
   years: 2009 - 2011
 
 - title: Real-Time Graphics

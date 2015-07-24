@@ -47,6 +47,25 @@ layout: default
     {% endfor %}
   </table>
 
+  <h2>Courses at Imperial College London</h2>
+
+  <table class="courses-table">
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for course in site.data.courses %}
+    {% if course.institution == "imperial" %}
+    <tr>
+      <td class="courses-date">{{ course.years }}</td>
+      <td><i>{{ course.title }}</i></td>
+      <td>{{ course.contribution }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
+
   <h2>Courses at Salzburg University of Applied Sciences</h2>
 
   <table class="courses-table">

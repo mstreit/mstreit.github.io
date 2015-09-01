@@ -14,8 +14,8 @@ authors:
 - Michael Krieger
 - streit
 
-journal: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '15)
-year: 2015 (to appear)
+journal: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '15), pp. 175-182
+year: 2015
 award:
 
 doi: 

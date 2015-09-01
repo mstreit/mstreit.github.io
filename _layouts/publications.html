@@ -8,18 +8,23 @@ layout: default
 <article class="publications-content">
 
 <p>
-<table>
-  <tr>
-    <td>
 
       <h1>Editorials</h1>
 
-      {% for publication in site.data.editorials reversed %}
       <div class="paper-list-block">
 
+      <table>
+        <tr>
+        {% for publication in site.data.editorials reversed %}
+
+        <td style="padding-top:0px">
+
+
+        {% if publication.image %}
         <a href="{{ publication.publisher }}"><img alt="{{ publication.shortname }} screenshot"
                                                    class="cover-image-small"
                                                    src="{{ site.baseurl }}{{ publication.image }}"></a>
+        {% endif %}
 
         <p>
           {% for author in publication.authors %}
@@ -63,20 +68,23 @@ layout: default
           </span>
         </p>
 
+        </td>
+          {% endfor %}
+
+        </tr>
+      </table>
       </div>
 
-      {% endfor %}
-
-    </td>
-    <td style="width:65%">
       <h1>Commentaries</h1>
 
+      <div class="paper-list-block">
       <table>
         <tr>
       {% for publication in site.data.commentaries reversed %}
 
           <td style="padding-top:0px">
-      <div class="paper-list-block">
+
+
 
         <a href="http://dx.doi.org/{{ publication.doi }}"><img alt="{{ publication.shortname }} screenshot"
                                                                class="cover-image-small"
@@ -123,17 +131,12 @@ layout: default
           </span>
         </p>
 
-      </div>
           </td>
       {% endfor %}
 
         </tr>
       </table>
-
-    </td>
-  </tr>
-</table>
-</p>
+      </div>
 
 <h1>Peer-Reviewed Journal and Conference Papers</h1>
 

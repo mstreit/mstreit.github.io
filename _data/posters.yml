@@ -9,6 +9,7 @@
   year: 2015
   abstract-pdf: 2015_infovis_prov-graph-vis_abstract.pdf
   poster-pdf:
+  award: IEEE InfoVis 2015 Best Poster Award
 
 - authors:
   - stitz
@@ -20,6 +21,7 @@
   year: 2015
   abstract-pdf: 2015_infovis_thermalplot_abstract.pdf
   poster-pdf:
+  award: IEEE InfoVis 2015 Honorable Mention Poster Award
 
 - authors:
   - gratzl
@@ -32,6 +34,18 @@
   journal: IEEE Conference on Information Visualization (InfoVis ’15), Chicago, IL, USA
   year: 2015
   abstract-pdf: 2015_infovis_caleydo-web_abstract.pdf
+  poster-pdf:
+
+- authors:
+  - Stefan Luger
+  - stitz
+  - gratzl
+  - gehlenborg
+  - streit
+  title: Interactive Visualization of Provenance Graphs for Reproducible Biomedical Research
+  journal: IEEE Sympoisum on Visualization in Data Science (VDS '15), Chicago, IL, USA
+  year: 2015
+  abstract-pdf:
   poster-pdf:
 
 - authors:

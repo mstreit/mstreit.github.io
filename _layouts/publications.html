@@ -300,6 +300,13 @@ layout: default
         {% endif %}
 
       </span>
+
+  {% if publication.award %}
+  <span class="award">
+    {{publication.award}}&nbsp;<i class="fa fa-trophy"></i>
+  </span>
+  {% endif %}
+
 </p>
 {% endif %}
 <br/>

@@ -13,6 +13,21 @@
   active: true
   amount: 352k EUR
 
+- agency: Boehringer Ingelheim Regional Center Vienna
+  website:
+  logo:
+  title: "Development of Multi-Dimensional Genomic Data Visualization and Data Mining Techniques"
+  recipient: jku
+  pi:
+  copi:
+  partners:
+  time: 2015 - 2018
+  program:
+  project-link:
+  number:
+  active: true
+  amount: 210k EUR
+
 - agency: State of Upper Austria
   website:
   logo:
@@ -24,7 +39,7 @@
   time: 2015 - 2018
   program: Innovatives OÖ2020
   project-link:
-  number:
+  number: 851460
   active: true
   amount: 400k EUR
 

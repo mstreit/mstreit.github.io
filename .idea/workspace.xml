@@ -83,20 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teaching.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="teaching.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/teaching.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.25" vertical-offset="1374" max-vertical-offset="2220">
-              <caret line="116" column="142" selection-start-line="116" selection-start-column="142" selection-end-line="116" selection-end-column="142" />
+            <state vertical-scroll-proportion="0.5720721" vertical-offset="1374" max-vertical-offset="2220">
+              <caret line="116" column="146" selection-start-line="116" selection-start-column="146" selection-end-line="116" selection-end-column="146" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tutorials.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tutorials.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/tutorials.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7826087" vertical-offset="0" max-vertical-offset="690">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
@@ -182,8 +182,8 @@
         <option value="$PROJECT_DIR$/_data/talks.yml" />
         <option value="$PROJECT_DIR$/_data/courses.yml" />
         <option value="$PROJECT_DIR$/_layouts/talks.html" />
-        <option value="$PROJECT_DIR$/_layouts/teaching.html" />
         <option value="$PROJECT_DIR$/_data/tutorials.yml" />
+        <option value="$PROJECT_DIR$/_layouts/teaching.html" />
       </list>
     </option>
   </component>
@@ -802,10 +802,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/courses.yml">
+    <entry file="file://$PROJECT_DIR$/_layouts/talks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/tutorials.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -818,26 +826,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/talks.html">
+    <entry file="file://$PROJECT_DIR$/_data/courses.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/teaching.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.25" vertical-offset="1374" max-vertical-offset="2220">
-          <caret line="116" column="142" selection-start-line="116" selection-start-column="142" selection-end-line="116" selection-end-column="142" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/tutorials.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7826087" vertical-offset="0" max-vertical-offset="690">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5720721" vertical-offset="1374" max-vertical-offset="2220">
+          <caret line="116" column="146" selection-start-line="116" selection-start-column="146" selection-end-line="116" selection-end-column="146" />
           <folding />
         </state>
       </provider>

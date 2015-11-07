@@ -114,7 +114,11 @@ layout: default
     {% for tut in site.data.tutorials %}
     <tr>
       <td>{{ tut.date }}</td>
-      <td><i>{{ tut.title }}</i><br />{{ tut.event }}<br /><a href="{{ tut.website }}">{{ tut.website }}</a>, held together with {{ tut.authors }}</td>
+      <td><i>{{ tut.title }}</i><br />{{ tut.event }}
+        {% if tut.colleagues %}
+        , held together with {{ tut.authors }}
+        {% endif %}
+        <br /><a href="{{ tut.website }}">{{ tut.website }}</a></td>
       <td>{{ tut.location }}</td>
     </tr>
     {% endfor %}

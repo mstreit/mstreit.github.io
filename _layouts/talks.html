@@ -23,20 +23,4 @@ layout: default
     {% endfor %}
   </table>
 
-  <h2>Tutorials</h2>
-  <table class="talks-table">
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-    {% for tut in site.data.tutorials %}
-    <tr>
-      <td>{{ tut.date }}</td>
-      <td>{{ tut.authors }}<br /><i>{{ tut.title }}</i><br />{{ tut.event }}<br /><a href="{{ tut.website }}">{{ tut.website }}</a></td>
-      <td>{{ tut.location }}</td>
-    </tr>
-    {% endfor %}
-  </table>
-
 </article>

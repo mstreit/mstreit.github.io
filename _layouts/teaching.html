@@ -104,6 +104,22 @@ layout: default
     {% endfor %}
   </table>
 
+  <h1>Tutorials and Guest Lectures</h1>
+  <table class="talks-table">
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for tut in site.data.tutorials %}
+    <tr>
+      <td>{{ tut.date }}</td>
+      <td>{{ tut.authors }}<br /><i>{{ tut.title }}</i><br />{{ tut.event }}<br /><a href="{{ tut.website }}">{{ tut.website }}</a></td>
+      <td>{{ tut.location }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
   <h1>Student Supervision</h1>
 
   <table class="students-table">

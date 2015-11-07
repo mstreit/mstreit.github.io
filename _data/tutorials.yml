@@ -10,6 +10,12 @@
   location: Rostock, Germany
   authors: Marc Streit
 
+- title: Biological Data Visualization
+  event: Guest Lecture in Visualization Course, University of Vienna
+  date: 2015-05-19
+  location: Vienna, Austria
+  authors: Marc Streit
+
 - title: Cancer Data Analysis with Caleydo StratomeX and enRoute
   event: Symposium on Understanding Cancer Genomics through Information Visualization at Tokyo University
   date: 2013-02-21
@@ -26,5 +32,5 @@
 - title: Visual Linking in Information Visualization and Beyond
   event: Symposium on Understanding Cancer Genomics through Information Visualization at Tokyo University
   date: 2012-01-23
-  authors: Marc Streit, Hans-Jörg Schulz
   location: Rostock, Germany
+  authors: Marc Streit, Hans-Jörg Schulz

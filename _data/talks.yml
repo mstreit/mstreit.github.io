@@ -1,7 +1,7 @@
-- title: "Data Visualization"
-  event: Smart Productions (SmaPro)
-  date: 2015-10-09
-  location: Hagenberg, Austria
+- title: "Visual Analysis of Large and Heterogeneous Biological Data"
+  event: Data Visualization for Biology Workshop
+  date: 2015-11-24
+  location: Leuven, Belgium
   type: invited talk
 
 - title: "Extracting, Comparing, and Manipulating  Subsets Across Tabular Data"

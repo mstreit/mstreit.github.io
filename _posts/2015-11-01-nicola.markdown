@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Nicola Cosgrove joins the team. Welcome!
+link: 
+date:   2015-11-01 20:00:00
+categories: event
+---

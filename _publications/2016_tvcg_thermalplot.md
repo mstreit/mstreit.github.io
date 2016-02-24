@@ -15,7 +15,7 @@ authors:
 - streit
 
 journal: IEEE Transactions on Visualization and Computer Graphics
-year: 2016
+year: 2016 (to appear)
 award:
 
 doi: 10.1109/TVCG.2015.2513389
@@ -26,7 +26,7 @@ non-caleydo-paper: true
 
 project: 
 
-video: 2016_thermalplot_video
+video: 2016_tvcg_thermalplot_video
 preview-video:
 
 

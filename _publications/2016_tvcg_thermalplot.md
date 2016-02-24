@@ -25,6 +25,7 @@ publisher:
 non-caleydo-paper: true
 
 project: 
+external-project: http://thermalplot.pipes-vs-dams.at/
 
 video: 2016_tvcg_thermalplot_video
 preview-video:

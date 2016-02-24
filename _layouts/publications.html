@@ -189,6 +189,8 @@ layout: default
       <span  class="paper-link">
         {% if publication.non-caleydo-paper != true %}
           <i class="fa fa-home"></i>&nbsp; <a href="{{ site.caleydo_url }}{{ publication.url }}">Paper Website</a>
+        {% else %}
+          <i class="fa fa-home"></i>&nbsp; <a href="{{ publication.external-project }}">Paper Website</a>
         &nbsp;
         {% endif %}
 

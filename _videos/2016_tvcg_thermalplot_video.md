@@ -5,4 +5,4 @@ name: ThermalPlot Demonstration Video
 year: 2016
 youtube-id: hxRpf_BhgSU
 file: 2016_tvcg_thermalplot.mp4
--------------------------------
+---

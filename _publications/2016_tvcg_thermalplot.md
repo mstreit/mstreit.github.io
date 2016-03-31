@@ -14,8 +14,8 @@ authors:
 - aigner
 - streit
 
-journal: IEEE Transactions on Visualization and Computer Graphics
-year: 2016 (to appear)
+journal: IEEE Transactions on Visualization and Computer Graphics (to appear)
+year: 2016
 award:
 
 doi: 10.1109/TVCG.2015.2513389

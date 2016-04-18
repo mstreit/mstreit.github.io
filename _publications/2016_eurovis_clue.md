@@ -37,14 +37,14 @@ project:
 external-project: http://vistories.org
 
 # The reference to the video entry
-#video: 2016_eurovis_clue_video
+video: 2016_eurovis_clue_video
 # The reference to the preview viedo entry
 #preview-video: 2016_eurovis_clue_video_preview
 
 # the prerint
-#pdf: 2016_eurovis_clue.pdf
+pdf: 2016_eurovis_clue.pdf
 # A supplement PDF
-#supplement: 2015_infovis_vials_supplement.pdf
+supplement: 2016_eurovis_clue_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:

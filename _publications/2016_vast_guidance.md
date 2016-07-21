@@ -14,7 +14,7 @@ authors:
 - Thorsten May 
 - Silvia Miksch 
 - schulz
-- Marc Streit 
+- streit
 - Christian Tominski
 
 journal: IEEE Transactions on Visualization and Computer Graphics (VAST'16) (to appear)

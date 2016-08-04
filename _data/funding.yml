@@ -1,3 +1,21 @@
+\item [2017 - 2024] \textit{},
+, , grant no. , 19M EUR.
+
+- agency: Austrian Research Promotion Agency (FFG)
+  website:
+  logo:
+  title: "Pro2Future – Products and Production Systems of the Future"
+  recipient: jku
+  pi:
+  copi:
+  partners: Graz University of Technology
+  time: 2017 - 2024
+  program: COMET K1-Centre program
+  project-link:
+  number: 854184
+  active: true
+  amount: 19 M EUR
+
 - agency: Austrian Science Fund (FWF), State of Upper Austria, Nationalstiftung
   website:
   logo:
@@ -7,7 +25,7 @@
   copi:
   partners:
   time: 2015 - 2018
-  program:
+  program: Stand-Alone Project
   project-link:
   number: P27975-NBL
   active: true

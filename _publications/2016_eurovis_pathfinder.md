@@ -23,12 +23,12 @@ authors:
 - schmalstieg
 - lex
 
-journal: Computer Graphics Forum (EuroVis '16) (to appear)
+journal: Computer Graphics Forum (EuroVis '16), vol. 35, no. 3, pp. 491-500
 year: 2016
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
-award:
+award: Honorable Mention Award
 
-doi:
+doi:  10.1111/cgf.12883
 # The publisher URL - use only if no doi is available
 publisher:
 

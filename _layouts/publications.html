@@ -187,10 +187,15 @@ layout: default
     <br/>
 
       <span class="paper-link">
-        {% if publication.url || publication.external-project %}
+        {% if publication.url %}
           {% if publication.non-caleydo-paper != true %}
             <i class="fa fa-home"></i>&nbsp; <a href="{{ site.caleydo_url }}{{ publication.url }}">Paper Website</a>
-          {% else %}
+          &nbsp;
+          {% endif %}
+        {% endif %}
+
+        {% if publication.external-project %}
+          {% if publication.non-caleydo-paper %}
             <i class="fa fa-home"></i>&nbsp; <a href="{{ publication.external-project }}">Paper Website</a>
           &nbsp;
           {% endif %}

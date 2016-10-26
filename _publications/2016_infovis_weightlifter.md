@@ -20,7 +20,7 @@ journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis'16) (
 year: 2016
 award:
 
-doi: 
+doi: 10.1109/TVCG.2016.2598589
 # use publisher only if no doi is available
 publisher:
 
@@ -29,11 +29,11 @@ non-caleydo-paper: true
 project: 
 external-project: 
 
-video: 
+video: 2016_infovis_weightlifter.mp4
 preview-video:
 
 
-pdf: 
+pdf: 2016_infovis_weightlifter.pdf
 supplement:
 bibtex:
 

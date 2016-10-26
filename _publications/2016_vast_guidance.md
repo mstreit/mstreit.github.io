@@ -21,7 +21,7 @@ journal: IEEE Transactions on Visualization and Computer Graphics (VAST'16) (to 
 year: 2016
 award:
 
-doi: 
+doi: 10.1109/TVCG.2016.2598468
 # use publisher only if no doi is available
 publisher:
 
@@ -34,7 +34,7 @@ video:
 preview-video:
 
 
-pdf: 
+pdf: 2016_vast_characterizing_guidance.pdf
 supplement:
 bibtex:
 

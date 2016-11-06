@@ -1,13 +1,3 @@
-- date: Since 2015-10
-  title: Provenance Graph Based Steering
-  name: Michael Gillhofer
-  type: Master's Thesis
-
-- date: Since 2015-03
-  title: Comparative Visualization of Large Tabular Data
-  name: Reem Hourieh
-  type: Master's Thesis
-
 - date: Since 2013-11
   title: Visual Analysis of Large, Heterogeneous, Multi-Scale IT-Infrastruct. Data
   name: Holger Stitz
@@ -22,6 +12,16 @@
   title: Visual Integration of Heterogeneous Data and Its Representations
   name: Christian Partl
   type: PhD Thesis
+
+- date: 2015-10 - 2016-10
+  title: Provenance Graph Based Steering
+  name: Michael Gillhofer
+  type: Master's Thesis
+
+- date: 2015-03 - 2016-05
+  title: Comparative Visualization of Large Tabular Data
+  name: Reem Hourieh
+  type: Master's Thesis
 
 - date: 2014-01 - 2016-02
   title: Interactive Visualization of Provenance Graphs for Reproducible Biomedical Research

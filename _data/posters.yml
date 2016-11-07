@@ -20,7 +20,7 @@
   journal: IEEE Conference on Information Visualization (InfoVis ’15), Chicago, IL, USA
   year: 2015
   abstract-pdf: 2015_infovis_prov-graph-vis_abstract.pdf
-  poster-pdf:
+  poster-pdf: 2015_infovis_prov-graph-vis_poster.pdf
   award: IEEE InfoVis 2015 Best Poster Award
 
 - authors:
@@ -32,7 +32,7 @@
   journal: IEEE Conference on Information Visualization (InfoVis ’15), Chicago, IL, USA
   year: 2015
   abstract-pdf: 2015_infovis_thermalplot_abstract.pdf
-  poster-pdf:
+  poster-pdf: 2015_infovis_thermalplot_poster.pdf
   award: IEEE InfoVis 2015 Honorable Mention Poster Award
 
 - authors:
@@ -46,7 +46,7 @@
   journal: IEEE Conference on Information Visualization (InfoVis ’15), Chicago, IL, USA
   year: 2015
   abstract-pdf: 2015_infovis_caleydo-web_abstract.pdf
-  poster-pdf:
+  poster-pdf: 2015_infovis_caleydo-web_poster.pdf
 
 - authors:
   - Stefan Luger

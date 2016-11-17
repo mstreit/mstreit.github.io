@@ -29,7 +29,7 @@ non-caleydo-paper: true
 project: 
 external-project: 
 
-video: 2016_infovis_weightlifter.mp4
+video: 2016_infovis_weightlifter
 preview-video:
 
 

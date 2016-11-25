@@ -16,7 +16,7 @@ authors:
 - Torsten Möller
 - Harald Piringer
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis'16) (to appear)
+journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '16), 23(1), pp. 611-620
 year: 2016
 award:
 

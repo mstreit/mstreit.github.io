@@ -17,8 +17,8 @@ authors:
 - streit
 - Christian Tominski
 
-journal: IEEE Transactions on Visualization and Computer Graphics (VAST'16) (to appear)
-year: 2016
+journal: IEEE Transactions on Visualization and Computer Graphics (VAST '16), 23(1), pp. 111-120
+year: 2017
 award:
 
 doi: 10.1109/TVCG.2016.2598468

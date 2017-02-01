@@ -17,7 +17,7 @@ authors:
 - Harald Piringer
 
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '16), 23(1), pp. 611-620
-year: 2016
+year: 2017
 award:
 
 doi: 10.1109/TVCG.2016.2598589

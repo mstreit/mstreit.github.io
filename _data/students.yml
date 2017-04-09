@@ -1,3 +1,8 @@
+- date: Since 2017-04
+  title: tbd
+  name: Martin Ennemoser
+  type: PhD Thesis
+
 - date: Since 2016-09
   title: tbd
   name: Bikram Kawan
@@ -17,6 +22,11 @@
   title: Visual Integration of Heterogeneous Data and Its Representations
   name: Christian Partl
   type: PhD Thesis
+
+- date: Since 2017-03
+  title: "Intelligent User Guidance - From Clinical Data to Personalized Medicine"
+  name: Klaus Eckelt
+  type: Master's Thesis
 
 - date: 2015-10 - 2016-10
   title: Provenance Graph Based Steering

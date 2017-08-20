@@ -10,7 +10,7 @@ google_scholar: l7TTSP0AAAAJ
 linkedin: marcstreit
 safe: false
 lsi: false
-plugins: ./_plugins
+plugins_dir: ./_plugins
 google_analytics: "'UA-28057314-1'"
 use_analytics: true
 

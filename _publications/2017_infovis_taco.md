@@ -9,9 +9,9 @@ type: paper
 # The shortname is used for auto-generated titels
 shortname: TACO
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: /assets/images/papers/2017_infovis_taco_teaser.png
+image: 2017_infovis_taco_teaser.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: /assets/images/papers/2017_infovis_taco.png
+image_large: 2017_infovis_taco.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -23,7 +23,9 @@ authors:
 - streit
 
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '17)
-year: 2017 (to appear)
+year: 2017
+# Set `to_appear: 1` if no DOI and pages are available
+to_appear: 1
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: 
 
@@ -37,11 +39,13 @@ project:
 # Use this if you have an external project website
 #external-project: 
 
-#video: 2017_infovis_taco_video
-#preview-video: 2017_infovis_taco_video_preview
+video: 2017_infovis_taco_video
+preview-video: 2017_infovis_taco_video_preview
 
 # the prerint
-#pdf: 2017_infovis_taco.pdf
+pdf: 2017_infovis_taco.pdf
+bibtex: 2017_infovis_taco.bib
+
 # A supplement PDF
 #supplement: 2017_infovis_taco_supplement.pdf
 
@@ -56,8 +60,6 @@ supplements:
 # Link to the repository where the code is hostet
 code: https://github.com/Caleydo/taco/
 
-# bibtex: 2016_eurovis_avocado.bib
-
 abstract: "
 <p>Multivariate, tabular data is one of the most common data structures used in many different domains.</p>
 <p>Over time, tables can undergo changes in both structure and content, which results in multiple versions of the same table. A challenging task when working with such derived tables is to understand what exactly has changed between versions in terms of additions/deletions, reorder, merge/split, and content changes. For textual data, a variety of commonplace \"diff\" tools exist that support the task of investigating changes between revisions of a text. Although there are some comparison tools which assist users in inspecting differences between multiple table instances, the resulting visualizations are often difficult to interpret or do not scale to large tables with thousands of rows and columns.</p>
@@ -69,4 +71,5 @@ abstract: "
 
 # Acknowledgements
 
-We want to thank Samuel Gratzl for his contributions made during all phases of the project as well as to the implementation of the prototype system. We would also like to thank Nils Gehlenborg for giving domain specific input on the biomedical usage scenario and for providing feedback on the prototype implementation and its potential value for domain experts. This work was funded by the Austrian Science Fund as part of the _VisOnFire_ project (FWF P27975-NBL) and the Austrian Ministry for Transport, Innovation and Technology (BMVIT) under the ICT of the future program via the VALiD project (FFG 845598)}.
+We want to thank Samuel Gratzl for his contributions made during all phases of the project as well as to the implementation of the prototype system. We would also like to thank Nils Gehlenborg for giving domain specific input on the biomedical usage scenario and for providing feedback on the prototype implementation and its potential value for domain experts. This work was funded by the Austrian Science Fund as part of the _VisOnFire_ project (FWF P27975-NBL), the State of
+Upper Austria (FFG 851460), and the Austrian Ministry for Transport, Innovation and Technology (BMVIT) under the ICT of the future program via the VALiD project (FFG 845598).

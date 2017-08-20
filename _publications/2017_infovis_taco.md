@@ -41,7 +41,7 @@ project:
 #preview-video: 2017_infovis_taco_video_preview
 
 # the prerint
-pdf: 2017_infovis_taco.pdf
+#pdf: 2017_infovis_taco.pdf
 # A supplement PDF
 #supplement: 2017_infovis_taco_supplement.pdf
 

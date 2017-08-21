@@ -48,7 +48,7 @@ layout: default
           {% endfor %}
           <br/>
           <b> <a href="{{ publication.publisher }}">{{ publication.title }}</a></b><br/>
-          {{ publication.journal }}, {{publication.year}}
+          {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
 
           <br/>
         </p>
@@ -112,7 +112,7 @@ layout: default
           {% endfor %}
           <br/>
           <b> <a href="http://dx.doi.org/{{ publication.doi }}">{{ publication.title }}</a></b><br/>
-          {{ publication.journal }}, {{publication.year}}
+          {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
         </p>
 
         <p class="paper-link">
@@ -182,7 +182,7 @@ layout: default
     <b><a href="{{ site.caleydo_url }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
     {% endif %}
 
-    {{ publication.journal }}, {{publication.year}}
+    {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
 
     <br/>
 
@@ -292,7 +292,7 @@ layout: default
   <br/>
 
   <b>{{ publication.title }}</b><br/>
-  {{ publication.journal }}, {{publication.year}}
+  {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
 
   {% if publication.abstract-pdf or publication.poster-pdf %}
 <p class="poster-link">

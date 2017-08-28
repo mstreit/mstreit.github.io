@@ -8,7 +8,25 @@
   year: 2017
   abstract-pdf: 2017_vast_provenance-retrieval_abstract.pdf
   #poster-pdf: 2015_infovis_prov-graph-vis_poster.pdf
+  video: https://youtu.be/z8SSqQfrbG8
   award: IEEE VAST 2017 Best Poster Award
+  
+- authors:
+  - Katarina Furmanova
+  - Miroslava Jaresova
+  - Bikram Kawan
+  - stitz
+  - ennemoser
+  - gratzl
+  - lex
+  - streit
+  title: Taggle
+  journal: IEEE Conference on Information Visualization (InfoVis ’17), Phoenix, AZ, USA
+  year: 2017
+  abstract-pdf: 2017_infovis_taggle_abstract.pdf
+  #poster-pdf: 2015_infovis_prov-graph-vis_poster.pdf
+  video: https://youtu.be/Okdfmxzab-M
+  award:
 
 - authors:
   - Reem Hourieh
@@ -20,6 +38,7 @@
   year: 2016
   abstract-pdf: 2016_eurovis_taco_abstract.pdf
   poster-pdf: 2016_eurovis_taco_poster.pdf
+  video: https://youtu.be/yFWPCtjBlCc
   award:
 
 - authors:
@@ -32,6 +51,7 @@
   year: 2016
   abstract-pdf: 2016_infovis_cloud-infrastructure-performance-predictions_abstract.pdf
   poster-pdf: 2016_infovis_cloud-infrastructure-performance-predictions_poster.pdf
+  video: https://youtu.be/yFWPCtjBlCc
   award:
 
 - authors:

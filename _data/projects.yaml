@@ -1,3 +1,10 @@
+- title: Provenance Visualization
+  name: VisOnFire
+  standfirst: Visual analysis of large and heterogeneous scientific workflows for analytical provenance.
+  teaser: caleydo.png
+  url: http://visonfire.caleydo.org
+  logo: /assets/images/logos/caleydo.svg
+
 - title: Heterogeneous Data Visualization
   name: Caleydo
   standfirst: Caleydo is an open source visual analysis framework targeted at biomolecular data.
@@ -10,9 +17,3 @@
   standfirst: Privacy preserving visual dynamic network analysis for advanced system monitoring on multiple scales.
   teaser: pvd.png
   url: http://www.pipes-vs-dams.at
-
-- title: Show relationships
-  name: Visual Linking & Hidden Content
-  standfirst: Visualizing relationships between hidden and visible content in desktop environments.
-  teaser: linking.png
-  url: http://www.caleydo.org/projects/linking/

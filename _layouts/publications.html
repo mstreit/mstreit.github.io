@@ -324,6 +324,11 @@ layout: default
         &nbsp;
         {% endif %}
 
+        {% if publication.video %}
+          <i class="fa fa-file-video-o"></i>&nbsp; <a href="{{site.poster_content_url}}{{ publication.video }}">Video</a>
+        &nbsp;
+        {% endif %}
+
       </span>
 
   {% if publication.award %}

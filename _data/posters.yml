@@ -1,4 +1,16 @@
 - authors:
+  - stitz
+  - gratzl
+  - Harald Piringer
+  - streit
+  title: Provenance-Based Visualization Retrieval
+  journal: IEEE Conference on Visual Analytics Science and Technology (VAST ’17), Phoenix, AZ, USA, 2017
+  year: 2017
+  abstract-pdf: 2017_vast_provenance-retrieval_abstract.pdf
+  #poster-pdf: 2015_infovis_prov-graph-vis_poster.pdf
+  award: IEEE VAST 2017 Best Poster Award
+
+- authors:
   - Reem Hourieh
   - stitz
   - Nils Gehlenborg

@@ -1,6 +1,6 @@
 - role: Guest Editor
-  for: BMC Bioinformatics, Special Issue on Highlights from the 5th Symposium on Biological Data Visualization
-  years: 2015
+  for: BMC Bioinformatics, Special Issue on Highlights from the Symposium on Biological Data Visualization
+  years: 2017, 2015
 
 - role: Guest Editor
   for: IEEE Computer, Special Issue on Visual Analytics
@@ -8,7 +8,7 @@
 
 - role: "Organizing Committee: General Chair"
   for: Symposium on Biological Data Visualization (BioVis)
-  years: 2017
+  years: 2017 - 2018
 
 - role: "Organizing Committee: Paper Chair"
   for: IEEE Symposium on Biological Data Visualization (BioVis)
@@ -16,11 +16,11 @@
 
 - role: "Organizing Committee: Doctoral Colloquium"
   for: IEEE Conference on Information Visualization (InfoVis)
-  years: 2016
+  years: 2017
 
 - role: "Organizing Committee: Meetups Chair"
   for: IEEE Conference on Information Visualization (InfoVis)
-  years: 2015 - 2016
+  years: 2016
 
 - role: "Organizing Committee: Publication Chair"
   for: Symposium on Biological Data Visualization (BioVis)
@@ -81,6 +81,10 @@
 - role: Program Committee
   for: DATA 2012 ICETE, Special Session HCI-KDD in Computational Sciences
   years: 2012 - 2013
+
+- role: "Strategy & Programme Board"
+  for: FFG Pro2Future COMET K1-Centre
+  years: 2017
 
 - role: Best Poster Committee
   for: IEEE Conference on Information Visualization (InfoVis)

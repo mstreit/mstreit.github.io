@@ -1,4 +1,27 @@
 - authors:
+  - gehlenborg
+  - Shannan Ho Sui
+  - Ilya Sytchev
+  - Stefan Luger
+  - Fritz Lekschas
+  - Richard W Park
+  - Jennifer Marx
+  - Scott Ouellette
+  - David R Jones
+  - Anton Xue
+  - Psalm Haseley
+  - streit
+  - Winston Hide
+  - park
+  title: Reproducible Research in the Cloud with the Refinery Platform
+  journal: Bioinformatics Open Source Conference (BOSC 2016), Orlando, FL, USA
+  year: 2017
+  abstract-pdf: 2016_bosc_refinery_abstract.pdf
+  poster-pdf:
+  video:
+  award:
+
+- authors:
   - stitz
   - gratzl
   - Harald Piringer

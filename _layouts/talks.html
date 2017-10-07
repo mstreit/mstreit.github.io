@@ -16,7 +16,8 @@ layout: default
     {% for talk in site.data.talks %}
     <tr>
       <td>{{ talk.date }}</td>
-      <td><i>{{ talk.title }}</i><br />{{ talk.event }} ({{ talk.type }})</td>
+      <td><i>{{ talk.title }}</i><br />{{ talk.event }}</td>
+      <td>{{ talk.type }}</td>
       <td>{{ talk.location }}</td>
     </tr>
     {% endfor %}

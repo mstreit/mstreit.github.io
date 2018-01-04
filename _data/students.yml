@@ -1,5 +1,10 @@
+- date: Since 2017-12
+  title: Provenance Visualization
+  name: Martin Ennemoser
+  type: PhD Thesis
+
 - date: Since 2017-04
-  title: tbd
+  title: Visualizing Machine Larning Models and Processes
   name: Martin Ennemoser
   type: PhD Thesis
 
@@ -19,12 +24,12 @@
   type: Master's Thesis
 
 - date: 2012-11 - 2017-04
-  title: Guided Visual Analysis of Heterogeneous Data
+  title: Visually Guiding Users in Selection, Exploration, and Presentation Tasks
   name: Samuel Gratzl
   type: PhD Thesis
 
 - date: 2015-10 - 2016-10
-  title: Provenance Graph Based Steering
+  title: Provenance Graph-Based Steering
   name: Michael Gillhofer
   type: Master's Thesis
 

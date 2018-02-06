@@ -7,341 +7,242 @@ layout: default
 
 <article class="publications-content">
 
-<p>
+  <h1 id="editorials">Editorials</h1>
 
-      <h1 id="editorials">Editorials</h1>
+  <div class="paper-list-block">
 
-      <div class="paper-list-block">
+    <table>
+      <tr>
+      {% for publication in site.data.editorials reversed %}
 
-      <table>
-        <tr>
-        {% for publication in site.data.editorials reversed %}
+      <td style="padding-top:0px">
+
+
+      {% if publication.image %}
+      <a href="{{ publication.publisher }}"><img alt="{{ publication.shortname }} screenshot"
+                                                  class="cover-image-small"
+                                                  src="{{ site.baseurl }}{{ publication.image }}"></a>
+      {% endif %}
+
+      <p>
+        {% for author in publication.authors %}
+
+        {% assign known = false %}
+        {% for person in site.persons %}
+        {% if author == person.key %}
+      <span class="paper-author">
+    {% if person.website %}
+        <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+        {% else %}
+        {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
+        {% endif %}
+      </span>
+        {% assign known = true %}
+        {% endif %}
+        {% endfor %}
+
+        {% if known == false %}
+      <span class="paper-author">
+        {{ author }}{% if author != publication.authors.last %}, {% endif %}
+      </span>
+        {% endif %}
+
+        {% endfor %}
+        <br/>
+        <b> <a href="{{ publication.publisher }}">{{ publication.title }}</a></b><br/>
+        {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
+
+        <br/>
+      </p>
+
+      <p class="paper-link">
+        <span style="float: left;">
+          <i class="fa fa-external-link"></i>&nbsp;
+          {% if publication.doi %}
+            <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>&nbsp;
+          {% else %}
+            <a href="{{ publication.publisher }}">Publisher</a>&nbsp;
+          {% endif %}
+
+          {% if publication.pdf %}
+            <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ publication.pdf }}">PDF</a>
+          {% endif %}
+        </span>
+      </p>
+
+      </td>
+        {% endfor %}
+
+      </tr>
+    </table>
+  </div>
+
+  <h1 id="commentaries">Commentaries</h1>
+
+  <div class="paper-list-block">
+    <table>
+      <tr>
+    {% for publication in site.data.commentaries reversed %}
 
         <td style="padding-top:0px">
 
 
-        {% if publication.image %}
-        <a href="{{ publication.publisher }}"><img alt="{{ publication.shortname }} screenshot"
-                                                   class="cover-image-small"
-                                                   src="{{ site.baseurl }}{{ publication.image }}"></a>
+
+      <a href="http://dx.doi.org/{{ publication.doi }}"><img alt="{{ publication.shortname }} screenshot"
+                                                              class="cover-image-small"
+                                                              src="{{ site.baseurl }}{{ publication.image }}"></a>
+
+      <p>
+        {% for author in publication.authors %}
+
+        {% assign known = false %}
+        {% for person in site.persons %}
+        {% if author == person.key %}
+      <span class="paper-author">
+        {% if person.website %}
+        <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+        {% else %}
+        {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
+        {% endif %}
+      </span>
+        {% assign known = true %}
+        {% endif %}
+        {% endfor %}
+
+        {% if known == false %}
+      <span class="paper-author">
+        {{ author }}{% if author != publication.authors.last %}, {% endif %}
+      </span>
         {% endif %}
 
-        <p>
-          {% for author in publication.authors %}
+        {% endfor %}
+        <br/>
+        <b> <a href="http://dx.doi.org/{{ publication.doi }}">{{ publication.title }}</a></b><br/>
+        {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
+      </p>
 
-          {% assign known = false %}
-          {% for person in site.persons %}
-          {% if author == person.key %}
-        <span class="paper-author">
-		  {% if person.website %}
-          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+      <p class="paper-link">
+        <span style="float: left;">
+          <i class="fa fa-external-link"></i>&nbsp;
+          {% if publication.doi %}
+            <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>&nbsp;
           {% else %}
-          {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
+            <a href="{{ publication.publisher }}">Publisher</a>&nbsp;
           {% endif %}
+
+          {% if publication.pdf %}
+            <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ publication.pdf }}">PDF</a>
+          {% endif %}
+          &nbsp;
         </span>
-          {% assign known = true %}
-          {% endif %}
-          {% endfor %}
-
-          {% if known == false %}
-        <span class="paper-author">
-          {{ author }}{% if author != publication.authors.last %}, {% endif %}
-        </span>
-          {% endif %}
-
-          {% endfor %}
-          <br/>
-          <b> <a href="{{ publication.publisher }}">{{ publication.title }}</a></b><br/>
-          {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
-
-          <br/>
-        </p>
-
-        <p class="paper-link">
-          <span style="float: left;">
-            <i class="fa fa-external-link"></i>&nbsp;
-            {% if publication.doi %}
-              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>&nbsp;
-            {% else %}
-              <a href="{{ publication.publisher }}">Publisher</a>&nbsp;
-            {% endif %}
-
-            {% if publication.pdf %}
-              <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ publication.pdf }}">PDF</a>
-            {% endif %}
-          </span>
-        </p>
+      </p>
 
         </td>
-          {% endfor %}
+    {% endfor %}
 
-        </tr>
-      </table>
-      </div>
+      </tr>
+    </table>
+  </div>
 
-      <h1 id="commentaries">Commentaries</h1>
+  <h1 id="preprint">Preprint</h1>
 
-      <div class="paper-list-block">
-      <table>
-        <tr>
-      {% for publication in site.data.commentaries reversed %}
+  {% for publication in site.publications reversed %}
+    {% if publication.personal %}
+    {% elsif publication.type == "preprint" %}
+      {% include publication_list_entry.html %}
+    {% endif %}
+  {% endfor %}
 
-          <td style="padding-top:0px">
+  <h1 id="journal-papers">Peer-Reviewed Journal and Conference Papers</h1>
 
+  {% for publication in site.publications reversed %}
+    {% if publication.personal %}
+    {% elsif publication.type == "paper" %}
+      {% include publication_list_entry.html %}
+    {% endif %}
+  {% endfor %}
 
+  <h1 id="theses">Theses </h1>
 
-        <a href="http://dx.doi.org/{{ publication.doi }}"><img alt="{{ publication.shortname }} screenshot"
-                                                               class="cover-image-small"
-                                                               src="{{ site.baseurl }}{{ publication.image }}"></a>
+  {% for thesis in site.data.theses %}
 
-        <p>
-          {% for author in publication.authors %}
+  <p class="poster-item">{{thesis.type}}<br/>
+    {% if thesis.pdf %}
+    <b><a href="{{ site.paper_content_url }}{{ thesis.pdf }}">{{ thesis.title }}</a></b><br/>
+    {% else %}
+    <b>{{ thesis.title }}</b><br/>
+    {% endif %}
+    {{ thesis.institution }}, {{thesis.date}}<br/>
+    Supervision: <i>{{ thesis.supervision }}</i>
+  </p>
 
-          {% assign known = false %}
-          {% for person in site.persons %}
-          {% if author == person.key %}
-        <span class="paper-author">
-          {% if person.website %}
-          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
-          {% else %}
-          {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
-          {% endif %}
-        </span>
-          {% assign known = true %}
-          {% endif %}
-          {% endfor %}
+  {% endfor %}
 
-          {% if known == false %}
-        <span class="paper-author">
-          {{ author }}{% if author != publication.authors.last %}, {% endif %}
-        </span>
-          {% endif %}
+  <h1 id="posters">Extended Abstracts and Posters</h1>
 
-          {% endfor %}
-          <br/>
-          <b> <a href="http://dx.doi.org/{{ publication.doi }}">{{ publication.title }}</a></b><br/>
-          {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
-        </p>
+  {% for publication in site.data.posters %}
 
-        <p class="paper-link">
-          <span style="float: left;">
-            <i class="fa fa-external-link"></i>&nbsp;
-            {% if publication.doi %}
-              <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>&nbsp;
-            {% else %}
-              <a href="{{ publication.publisher }}">Publisher</a>&nbsp;
-            {% endif %}
-
-            {% if publication.pdf %}
-              <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ publication.pdf }}">PDF</a>
-            {% endif %}
-            &nbsp;
-          </span>
-        </p>
-
-          </td>
-      {% endfor %}
-
-        </tr>
-      </table>
-      </div>
-
-<h1 id="journal-papers">Peer-Reviewed Journal and Conference Papers</h1>
-
-{% for publication in site.publications reversed %}
-
-<div id="{{ publication.key }}" class="paper-list-block">
-
-
-  {% if publication.non-caleydo-paper %}
-  <img alt="{{ publication.shortname }} screenshot" class="paper-image-small"  src="{{ site.baseurl }}{{ publication.image }}">
-  {% else %}
-  <a href="{{ site.caleydo_url }}{{ publication.url }}"><img alt="{{ publication.shortname }} screenshot"
-                                                         class="paper-image-small"
-                                                         src="{{ site.baseurl }}{{ publication.image }}"></a>
-  {% endif %}
-
-
-  <p>
+  <p class="poster-item">
     {% for author in publication.authors %}
 
     {% assign known = false %}
     {% for person in site.persons %}
     {% if author == person.key %}
-        <span class="paper-author">
-		  {% if person.website %}
-          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
-          {% else %}
-          {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
-          {% endif %}
-        </span>
+          <span class="paper-author">
+            {% if person.website %}
+            <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
+            {% else %}
+            {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
+            {% endif %}
+          </span>
     {% assign known = true %}
     {% endif %}
     {% endfor %}
 
     {% if known == false %}
-        <span class="paper-author">        
-          {{ author }}{% if author != publication.authors.last %}, {% endif %}
-        </span>
+          <span class="paper-author">
+            {{ author }}{% if author != publication.authors.last %}, {% endif %}
+          </span>
     {% endif %}
 
     {% endfor %}
     <br/>
 
-    {% if publication.non-caleydo-paper %}
-    <b><a href="{{ publication.external-project }}">{{ publication.title }}</a></b><br/>
-    {% else %}
-    <b><a href="{{ site.caleydo_url }}{{ publication.url }}">{{ publication.title }}</a></b><br/>
-    {% endif %}
-
+    <b>{{ publication.title }}</b><br/>
     {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
 
-    <br/>
+    {% if publication.abstract-pdf or publication.poster-pdf %}
+  <p class="poster-link">
 
-      <span class="paper-link">
-        {% if publication.url %}
-          {% if publication.non-caleydo-paper != true %}
-            <i class="fa fa-home"></i>&nbsp; <a href="{{ site.caleydo_url }}{{ publication.url }}">Paper Website</a>
+        <span style="float: left;">
+          {% if publication.abstract-pdf %}
+            <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.poster_content_url}}{{ publication.abstract-pdf }}">Abstract</a>
           &nbsp;
           {% endif %}
-        {% endif %}
 
-        {% if publication.external-project %}
-          {% if publication.non-caleydo-paper %}
-            <i class="fa fa-home"></i>&nbsp; <a href="{{ publication.external-project }}">Paper Website</a>
+          {% if publication.poster-pdf %}
+            <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.poster_content_url}}{{ publication.poster-pdf }}">Poster</a>
           &nbsp;
           {% endif %}
-        {% endif %}
 
-        {% if publication.pdf %}
-          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{ site.paper_content_url }}{{ publication.pdf }}">PDF</a>
-        &nbsp;
-        {% endif %}
+          {% if publication.video %}
+            <i class="fa fa-file-video-o"></i>&nbsp; <a href="{{ publication.video }}">Video</a>
+          &nbsp;
+          {% endif %}
 
-        {% if publication.doi %}
-        <i class="fa fa-external-link"></i>&nbsp;
-          <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
-        &nbsp;
-        {% elsif publication.publisher %}
-        <i class="fa fa-external-link"></i>&nbsp;
-          <a href="{{ publication.publisher }}">Publisher</a>
-        &nbsp;
-        {% endif %}
+        </span>
 
-        {% for video in site.videos %}
-        {% if video.key == publication.video and video.youtube-id %}
-          <i class="fa fa-youtube"></i>&nbsp; <a href="http://www.youtube.com//watch?v={{video.youtube-id}}">YouTube</a>
-        &nbsp;
-        {% endif %}
-        {% endfor %}
+    {% if publication.award %}
+    <span class="award">
+      {{publication.award}}&nbsp;<i class="fa fa-trophy"></i>
+    </span>
+    {% endif %}
 
-        {% for video in site.videos %}
-        {% if video.key == publication.video %}
-          <i class="fa fa-file-video-o"></i> &nbsp;<a href="{{site.paper_content_url}}{{video.file}}">Video</a>
-        &nbsp;
-        {% endif %}
-        {% endfor %}
-
-        {%if publication.bibtex %}
-          <i class="fa fa-download"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.bibtex }}">BibTeX</a>
-        &nbsp;
-        {% endif %}
-
-      </span>
   </p>
-
-  {% if publication.award %}
-  <span class="award">
-    {{publication.award}}&nbsp;<i class="fa fa-trophy"></i>
-  </span>
-  <div style="clear: both;"></div>
   {% endif %}
-
-</div>
-
-{% endfor %}
-
-<h1 id="theses">Theses </h1>
-
-{% for thesis in site.data.theses %}
-
-<p class="poster-item">{{thesis.type}}<br/>
-  {% if thesis.pdf %}
-  <b><a href="{{ site.paper_content_url }}{{ thesis.pdf }}">{{ thesis.title }}</a></b><br/>
-  {% else %}
-  <b>{{ thesis.title }}</b><br/>
-  {% endif %}
-  {{ thesis.institution }}, {{thesis.date}}<br/>
-  Supervision: <i>{{ thesis.supervision }}</i>
-</p>
-
-{% endfor %}
-
-<h1 id="posters">Extended Abstracts and Posters</h1>
-
-{% for publication in site.data.posters %}
-
-<p class="poster-item">
-  {% for author in publication.authors %}
-
-  {% assign known = false %}
-  {% for person in site.persons %}
-  {% if author == person.key %}
-        <span class="paper-author">
-          {% if person.website %}
-          <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %}
-          {% else %}
-          {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
-          {% endif %}
-        </span>
-  {% assign known = true %}
-  {% endif %}
-  {% endfor %}
-
-  {% if known == false %}
-        <span class="paper-author">
-          {{ author }}{% if author != publication.authors.last %}, {% endif %}
-        </span>
-  {% endif %}
-
-  {% endfor %}
   <br/>
 
-  <b>{{ publication.title }}</b><br/>
-  {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
-
-  {% if publication.abstract-pdf or publication.poster-pdf %}
-<p class="poster-link">
-
-      <span style="float: left;">
-        {% if publication.abstract-pdf %}
-          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.poster_content_url}}{{ publication.abstract-pdf }}">Abstract</a>
-        &nbsp;
-        {% endif %}
-
-        {% if publication.poster-pdf %}
-          <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.poster_content_url}}{{ publication.poster-pdf }}">Poster</a>
-        &nbsp;
-        {% endif %}
-
-        {% if publication.video %}
-          <i class="fa fa-file-video-o"></i>&nbsp; <a href="{{ publication.video }}">Video</a>
-        &nbsp;
-        {% endif %}
-
-      </span>
-
-  {% if publication.award %}
-  <span class="award">
-    {{publication.award}}&nbsp;<i class="fa fa-trophy"></i>
-  </span>
-  {% endif %}
-
-</p>
-{% endif %}
-<br/>
-
-{% endfor %}
+  {% endfor %}
 
 
 </article>

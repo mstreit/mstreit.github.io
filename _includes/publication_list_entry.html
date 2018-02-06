@@ -1,0 +1,75 @@
+<div id="{{ publication.key }}" class="paper-list-block">
+
+  {% if publication.non-caleydo-paper %}
+  <img alt="{{ publication.shortname }} screenshot" class="paper-image-small" src="{{ site.baseurl }}{{ publication.image }}"> {% else %}
+  <a href="{{ site.caleydo_url }}{{ publication.url }}">
+    <img alt="{{ publication.shortname }} screenshot" class="paper-image-small" src="{{ site.baseurl }}{{ publication.image }}">
+  </a>
+  {% endif %}
+
+
+  <p>
+    {% for author in publication.authors %} {% assign known = false %} {% for person in site.persons %} {% if author == person.key
+    %}
+    <span class="paper-author">
+      {% if person.website %}
+      <a href="{{ person.website }}">{{ person.first_name }}&nbsp;{{ person.last_name }}</a>{% if author != publication.authors.last %}, {% endif %} {%
+      else %} {{ person.first_name }}&nbsp;{{ person.last_name }}{% if author != publication.authors.last %}, {% endif %}
+      {% endif %}
+    </span>
+    {% assign known = true %} {% endif %} {% endfor %} {% if known == false %}
+    <span class="paper-author">
+      {{ author }}{% if author != publication.authors.last %}, {% endif %}
+    </span>
+    {% endif %} {% endfor %}
+    <br/> {% if publication.non-caleydo-paper %}
+    <b>
+      <a href="{{ publication.external-project }}">{{ publication.title }}</a>
+    </b>
+    <br/> {% else %}
+    <b>
+      <a href="{{ site.caleydo_url }}{{ publication.url }}">{{ publication.title }}</a>
+    </b>
+    <br/> {% endif %} {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
+
+    <br/>
+
+    <span class="paper-link">
+      {% if publication.url %} {% if publication.non-caleydo-paper != true %}
+      <i class="fa fa-home"></i>&nbsp;
+      <a href="{{ site.caleydo_url }}{{ publication.url }}">Paper Website</a>
+      &nbsp; {% endif %} {% endif %} {% if publication.external-project %} {% if publication.non-caleydo-paper %}
+      <i class="fa fa-home"></i>&nbsp;
+      <a href="{{ publication.external-project }}">Paper Website</a>
+      &nbsp; {% endif %} {% endif %} {% if publication.pdf %}
+      <i class="fa fa-file-pdf-o"></i>&nbsp;
+      <a href="{{ site.paper_content_url }}{{ publication.pdf }}">PDF</a>
+      &nbsp; {% endif %} {% if publication.doi %}
+      <i class="fa fa-external-link"></i>&nbsp;
+      <a href="http://dx.doi.org/{{ publication.doi }}">Publisher</a>
+      &nbsp; {% elsif publication.publisher %}
+      <i class="fa fa-external-link"></i>&nbsp;
+      <a href="{{ publication.publisher }}">Publisher</a>
+      &nbsp; {% endif %} {% for video in site.videos %} {% if video.key == publication.video and video.youtube-id %}
+      <i class="fa fa-youtube"></i>&nbsp;
+      <a href="http://www.youtube.com//watch?v={{video.youtube-id}}">YouTube</a>
+      &nbsp; {% endif %} {% endfor %} {% for video in site.videos %} {% if video.key == publication.video %}
+      <i class="fa fa-file-video-o"></i> &nbsp;
+      <a href="{{site.paper_content_url}}{{video.file}}">Video</a>
+      &nbsp; {% endif %} {% endfor %} {%if publication.bibtex %}
+      <i class="fa fa-download"></i>&nbsp;
+      <a href="{{site.paper_content_url}}{{ publication.bibtex }}">BibTeX</a>
+      &nbsp; {% endif %}
+
+    </span>
+  </p>
+
+  {% if publication.award %}
+  <span class="award">
+    {{publication.award}}&nbsp;
+    <i class="fa fa-trophy"></i>
+  </span>
+  <div style="clear: both;"></div>
+  {% endif %}
+
+</div>

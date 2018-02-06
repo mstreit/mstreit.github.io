@@ -9,7 +9,7 @@ layout: default
 
 <p>
 
-      <h1>Editorials</h1>
+      <h1 id="editorials">Editorials</h1>
 
       <div class="paper-list-block">
 
@@ -79,7 +79,7 @@ layout: default
       </table>
       </div>
 
-      <h1>Commentaries</h1>
+      <h1 id="commentaries">Commentaries</h1>
 
       <div class="paper-list-block">
       <table>
@@ -146,11 +146,11 @@ layout: default
       </table>
       </div>
 
-<h1>Peer-Reviewed Journal and Conference Papers</h1>
+<h1 id="journal-papers">Peer-Reviewed Journal and Conference Papers</h1>
 
 {% for publication in site.publications reversed %}
 
-<div class="paper-list-block">
+<div id="{{ publication.key }}" class="paper-list-block">
 
 
   {% if publication.non-caleydo-paper %}
@@ -261,7 +261,7 @@ layout: default
 
 {% endfor %}
 
-<h1>Theses </h1>
+<h1 id="theses">Theses </h1>
 
 {% for thesis in site.data.theses %}
 
@@ -277,7 +277,7 @@ layout: default
 
 {% endfor %}
 
-<h1>Extended Abstracts and Posters</h1>
+<h1 id="posters">Extended Abstracts and Posters</h1>
 
 {% for publication in site.data.posters %}
 

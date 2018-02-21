@@ -1,3 +1,18 @@
+- date: Since 2018-02
+  title: Visualization of Mathmatical Problems Using Particles
+  name: Vaishali Dhanoa
+  type: Master's Project
+
+- date: Since 2018-02
+  title: Fusing Data Analysis with Data Wrangling
+  name: Dominik Dirmeier
+  type: Bachelor's Thesis
+
+- date: Since 2018-01
+  title: Visualizing Rubik's Cube Solving Strategies
+  name: Christian Steinparz
+  type: Bachelor's Thesis
+
 - date: Since 2017-12
   title: Provenance Visualization for Machine Learning
   name: Peter Ruch
@@ -8,6 +23,11 @@
   name: Martin Ennemoser
   type: PhD Thesis
 
+- date: Since 2017-03
+  title: "Intelligent User Guidance - From Clinical Data to Personalized Medicine"
+  name: Klaus Eckelt
+  type: Master's Thesis
+
 - date: Since 2013-11
   title: Visual Analysis of Large, Heterogeneous, Multi-Scale IT-Infrastruct. Data
   name: Holger Stitz
@@ -17,11 +37,6 @@
   title: Visual Integration of Heterogeneous Data and Its Representations
   name: Christian Partl
   type: PhD Thesis
-
-- date: Since 2017-03
-  title: "Intelligent User Guidance - From Clinical Data to Personalized Medicine"
-  name: Klaus Eckelt
-  type: Master's Thesis
 
 - date: 2012-11 - 2017-04
   title: Visually Guiding Users in Selection, Exploration, and Presentation Tasks

@@ -1,7 +1,25 @@
 - title: "Leveraging Provenance for Storytelling, Reproducibility, and Recall"
+  event: GRIS Kolloquium, TU Darmstadt
+  date: 2018-03-16
+  location: Darmstadt, Germany
+  type: invited talk
+
+- title: "Leveraging Provenance for Storytelling, Reproducibility, and Recall"
   event: University of Groningen
   date: 2018-03-14
   location: Groningen, Netherlands
+  type: invited talk
+
+- title: "Injecting Life into Visualizations for Biomedical Research"
+  event: Open Insights Seminar Series, Harvard Medical School
+  date: 2018-03-07
+  location: Cambrdige, MA, USA
+  type: invited talk
+
+- title: "Interactive Exploration of Structured Data, Large (Biomedical) Graphs, and Black Box Models"
+  event: Visual AI Lab, IBM Research
+  date: 2018-03-06
+  location: Cambrdige, MA, USA
   type: invited talk
 
 - title: "Collaborating with Domain Experts"
@@ -94,7 +112,7 @@
   location: Klosterneuburg, Austria
   type: invited talk
 
-- title: "TourGuide - Navigation System for Capturing and Analyzing Complex Clinical Datan"
+- title: "TourGuide - Navigation System for Capturing and Analyzing Complex Clinical Data"
   event: Kepler University Clinic Tumor Center Conference
   date: 2016-02-03
   location: Linz, Austria

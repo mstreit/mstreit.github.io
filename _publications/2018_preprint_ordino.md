@@ -32,6 +32,7 @@ journal: bioRxiv preprint
 
 doi: 10.1101/277848
 # use publisher only if no doi is available
+publisher:
 
 bibentry: article
 bib:

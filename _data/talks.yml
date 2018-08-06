@@ -1,4 +1,28 @@
 - title: "Leveraging Provenance for Storytelling, Reproducibility, and Recall"
+  event: SCI Seminar, University of Utah
+  date: 2018-07-12
+  location: Salt Lake City, UT, USA
+  type: invited talk
+
+- title: "Multi-Dimensional Data Vis in Drug Discovery: From Target Identification to Validation"
+  event: "EMBL EBI Industry Programme Workshop: Innovations in Data Visualisation for Drug Discovery"
+  date: 2018-06-13
+  location: Cambridge, UK
+  type: invited talk  
+
+- title: "Human-Interpretable AI"
+  event: Collaboration Kick-off JKU Linz and Imperial College London funded by State of Upper Austria
+  date: 2018-05-03
+  location: London, UK
+  type: invited talk
+
+- title: "Collaborations between VIS / Bioinformatics / BIO Communities"
+  event: "Dagstuhl Seminar on Visualization of Biological Data - Crossroads"
+  date: 2018-04-16
+  location: Cambridge, UK
+  type: invited talk  
+
+- title: "Leveraging Provenance for Storytelling, Reproducibility, and Recall"
   event: GRIS Kolloquium, TU Darmstadt
   date: 2018-03-16
   location: Darmstadt, Germany
@@ -13,13 +37,13 @@
 - title: "Injecting Life into Visualizations for Biomedical Research"
   event: Open Insights Seminar Series, Harvard Medical School
   date: 2018-03-07
-  location: Cambrdige, MA, USA
+  location: Cambridge, MA, USA
   type: invited talk
 
 - title: "Interactive Exploration of Structured Data, Large (Biomedical) Graphs, and Black Box Models"
   event: Visual AI Lab, IBM Research
   date: 2018-03-06
-  location: Cambrdige, MA, USA
+  location: Cambridge, MA, USA
   type: invited talk
 
 - title: "Collaborating with Domain Experts"

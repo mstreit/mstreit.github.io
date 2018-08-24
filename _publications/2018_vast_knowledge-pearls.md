@@ -40,9 +40,9 @@ to_appear: 1
 bibentry: article
 bib:
   journal: IEEE Transactions on Visualization and Computer Graphics (VAST '18)
-  doi: 
-  volume: 
-  number: 
+  doi: 10.1109/TVCG.2018.2865024
+  volume: 25
+  number: 1
   pages: 
 
 

@@ -30,6 +30,8 @@ journal-short: TVCG (InfoVis'18), to appear
 year: 2018
 journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis'18)
 
+to_appear: 1
+
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"
 # Preprints are articles with the location of preprint mentioned in "journal"

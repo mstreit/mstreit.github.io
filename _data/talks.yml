@@ -1,4 +1,28 @@
 - title: "Leveraging Provenance for Storytelling, Reproducibility, and Recall"
+  event: SCI Seminar, University of Utah
+  date: 2018-07-12
+  location: Salt Lake City, UT, USA
+  type: invited talk
+
+- title: "Multi-Dimensional Data Vis in Drug Discovery: From Target Identification to Validation"
+  event: "EMBL EBI Industry Programme Workshop: Innovations in Data Visualisation for Drug Discovery"
+  date: 2018-06-13
+  location: Cambridge, UK
+  type: invited talk  
+
+- title: "Human-Interpretable AI"
+  event: Collaboration Kick-off JKU Linz and Imperial College London funded by State of Upper Austria
+  date: 2018-05-03
+  location: London, UK
+  type: invited talk
+
+- title: "Collaborations between VIS / Bioinformatics / BIO Communities"
+  event: "Dagstuhl Seminar on Visualization of Biological Data - Crossroads"
+  date: 2018-04-16
+  location: Dagstuhl, Germany
+  type: invited talk  
+
+- title: "Leveraging Provenance for Storytelling, Reproducibility, and Recall"
   event: GRIS Kolloquium, TU Darmstadt
   date: 2018-03-16
   location: Darmstadt, Germany
@@ -13,13 +37,13 @@
 - title: "Injecting Life into Visualizations for Biomedical Research"
   event: Open Insights Seminar Series, Harvard Medical School
   date: 2018-03-07
-  location: Cambrdige, MA, USA
+  location: Cambridge, MA, USA
   type: invited talk
 
 - title: "Interactive Exploration of Structured Data, Large (Biomedical) Graphs, and Black Box Models"
   event: Visual AI Lab, IBM Research
   date: 2018-03-06
-  location: Cambrdige, MA, USA
+  location: Cambridge, MA, USA
   type: invited talk
 
 - title: "Collaborating with Domain Experts"
@@ -28,7 +52,7 @@
   location: Dagstuhl, Germany
   type: invited talk
 
-- title: "Leveraging Provenance for  Storytelling, Reproducibility, and Recall"
+- title: "Leveraging Provenance for Storytelling, Reproducibility, and Recall"
   event: VRVis Forum
   date: 2017-11-27
   location: Vienna, Austria
@@ -88,7 +112,7 @@
   location: Linz, Austria
   type: habilitation defense
 
-- title: "How Visualization Helps to  Understand Biomedical Data"
+- title: "How Visualization Helps to Understand Biomedical Data"
   event: "Boehringer Ingelheim Global Computational Biology Retreat"
   date: 2016-06-14
   location: Mainz, Germany
@@ -124,13 +148,13 @@
   location: Leuven, Belgium
   type: invited talk
 
-- title: "Extracting, Comparing, and Manipulating  Subsets Across Tabular Data"
+- title: "Extracting, Comparing, and Manipulating Subsets Across Tabular Data"
   event: Virtual Reality and Visualization Research Group, Bauhaus University Weimar
   date: 2015-07-07
   location: Weimar, Germany
   type: invited talk
 
-- title: "Visual Analysis of Heterogeneous  Biomolecular Data"
+- title: "Visual Analysis of Heterogeneous Biomolecular Data"
   event: Medical University of Vienna, Dept. of Vascular Biology and Thrombosis Research
   date: 2015-06-19
   location: Vienna, Austria
@@ -142,19 +166,19 @@
   location: Vienna, Austria
   type: invited talk
 
-- title: "Extracting, Comparing, and Manipulating  Subsets Across Tabular Data"
+- title: "Extracting, Comparing, and Manipulating Subsets Across Tabular Data"
   event: giCentre, City University London
   date: 2015-05-13
   location: London, UK
   type: invited talk
 
-- title: "Visual Analysis of Heterogeneous  Biomolecular Data"
+- title: "Visual Analysis of Heterogeneous Biomolecular Data"
   event: Biomedical Image Analysis Group, Imperial College London
   date: 2015-05-12
   location: London, UK
   type: invited talk
 
-- title: "Extracting, Comparing, and Manipulating  Subsets Across Tabular Data"
+- title: "Extracting, Comparing, and Manipulating Subsets Across Tabular Data"
   event: VDA Colloquium, University of Vienna
   date: 2015-02-12
   location: Vienna, Austria

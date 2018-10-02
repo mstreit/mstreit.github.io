@@ -88,11 +88,15 @@
 
 - role: "Strategy & Programme Board"
   for: FFG Pro2Future COMET K1-Centre
-  years: 2017
+  years: 2017 - 2018
 
 - role: Expert Team
   for: JKU Linz Institute of Technology
   years: 2017
+
+- role: Best Paper Committee
+  for: IEEE Cofnference on Information Visualization (InfoVis)
+  years: 2018
 
 - role: Best Poster Committee
   for: IEEE Conference on Information Visualization (InfoVis)
@@ -107,10 +111,7 @@
   years: 2014
 
 - role: Best Poster Judge
-  for: IEEE Symposium on Biological Data Visualization (BioVis)
-  years: 2017, 2013
-
-
-
+  for: Biological Data Visualization (BioVis)
+  years: 2017 - 2018, 2013
 
 

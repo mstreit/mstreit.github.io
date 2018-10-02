@@ -28,6 +28,7 @@ authors:
 # Include a shortened name for the journal or conference/proceedings
 journal-short: TVCG (InfoVis'18), to appear
 year: 2018
+journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis'18)
 
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"

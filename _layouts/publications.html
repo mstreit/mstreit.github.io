@@ -181,7 +181,9 @@ layout: default
     <b>{{ thesis.title }}</b><br/>
     {% endif %}
     {{ thesis.institution }}, {{thesis.date}}<br/>
-    Supervision: <i>{{ thesis.supervision }}</i>
+    {% if thesis.supervision %}
+      Supervision: <i>{{ thesis.supervision }}</i>
+    {% endif %}  
   </p>
 
   {% endfor %}

@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: default
 first_name: Martin
 last_name: Ennemoser
 key: ennemoser
 permalink: /persons/ennemoser/
-role: contributor
+role: alumni
 email: martin.ennemoser@jku.at
 image: /assets/images/team/ennemoser.jpg
 organization: Johannes Kepler University Linz
 position: PhD Student
-website: http://www.jku.at/cg/content/e48314/
+website:
 ---

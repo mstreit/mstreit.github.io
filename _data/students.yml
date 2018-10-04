@@ -13,21 +13,6 @@
   name: Christian Steinparz
   type: Bachelor's Thesis
 
-- date: Since 2017-12
-  title: Provenance Visualization for Machine Learning
-  name: Peter Ruch
-  type: Master's Thesis
-
-- date: Since 2017-04
-  title: Visualizing Machine Larning Models and Processes
-  name: Martin Ennemoser
-  type: PhD Thesis
-
-- date: Since 2017-03
-  title: "Intelligent User Guidance - From Clinical Data to Personalized Medicine"
-  name: Klaus Eckelt
-  type: Master's Thesis
-
 - date: Since 2013-11
   title: Visual Analysis of Large, Heterogeneous, Multi-Scale IT-Infrastruct. Data
   name: Holger Stitz
@@ -37,6 +22,11 @@
   title: Visual Integration of Heterogeneous Data and Its Representations
   name: Christian Partl
   type: PhD Thesis
+
+- date: 2017-03 - 2018-08
+  title: "Intelligent User Guidance - From Clinical Data to Personalized Medicine"
+  name: Klaus Eckelt
+  type: Master's Thesis  
 
 - date: 2012-11 - 2017-04
   title: Visually Guiding Users in Selection, Exploration, and Presentation Tasks

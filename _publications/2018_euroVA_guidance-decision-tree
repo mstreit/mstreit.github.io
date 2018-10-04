@@ -1,0 +1,44 @@
+---
+layout: publication
+title: "Guidance or No Guidance? A Decision Tree Can Help"
+key: 2018_cbi_industrial-process-management
+permalink: /publications/2018_euroVA_guidance-decision-tree/
+type: paper
+
+shortname:
+image: /assets/images/papers/2018_cbi_industrial-process-management.png
+
+authors:
+- Davide Ceneda
+- Theresia Gschwandtner
+- Thorsten May
+- Silvia Miksch
+- streit
+- Christian Tominski
+
+journal: EuroVis Workshop on Visual Analytics (EuroVA '18)
+year: 2018
+award:
+
+doi: 10.2312/eurova.20181107
+# use publisher only if no doi is available
+publisher:
+
+non-caleydo-paper: true
+
+project: 
+external-project: 
+
+video: 
+preview-video:
+
+
+pdf: 2018_euroVA_guidance-decision-tree.pdf
+supplement:
+bibtex:
+
+abstract: 
+
+---
+
+# Acknowledgements

@@ -16,14 +16,17 @@ authors:
 - streit
 - schmalstieg
 
-journal: Proceedings of the Conference on Graphics Interface (GI '10), pp. 129-136
+# Include a shortened name for the journal or conference/proceedings
+journal-short: GI (GI '10)
 year: 2010
+
+bibentry: article
+bib:
+  journal: Proceedings of the Conference on Graphics Interface (GI '10)
+  publisher: https://dl.acm.org/citation.cfm?id=1839214.1839238
+  pages: 129--136
+
 award: GI 2010 Best Student Paper Award 
-
-
-doi: 
-# use publisher only if no doi is available
-publisher: http://dl.acm.org/citation.cfm?id=1839214.1839238 
 
 non-caleydo-paper: true
 

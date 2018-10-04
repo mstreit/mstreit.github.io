@@ -18,13 +18,18 @@ authors:
 - Tamara Kopp
 - Radu Rogojanu
 
-journal: Journal of Cytometry Part A, 69A(7), pp. 601-611, 2006
+journal-short: Cytometry (CESCG '07)
 year: 2006
-award: 
 
-doi: 10.1002/cyto.a.20288
-# use publisher only if no doi is available
-publisher: 
+bibentry: article
+bib:
+  journal: Journal of Cytometry Part A
+  doi: 10.1002/cyto.a.20288
+  volume: 69A
+  number: 7
+  pages: 601--611
+
+award: 
 
 non-caleydo-paper: true
 

@@ -27,13 +27,19 @@ authors:
 - N. Jekic
 - Stefanie Lindstaedt
 
-journal: IEEE Conference on Business Informatics (CBI '18)
+journal-short: TVCG (InfoVis '14)
 year: 2018
+
+bibentry: article
+bib:
+  journal: IEEE Conference on Business Informatics (CBI '18)
+  doi: 10.1109/CBI.2018.10051
+  volume: 
+  number: 
+  pages:
+
 award:
 
-doi: 10.1109/CBI.2018.10051
-# use publisher only if no doi is available
-publisher:
 
 non-caleydo-paper: true
 

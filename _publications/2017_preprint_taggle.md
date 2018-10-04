@@ -29,11 +29,6 @@ authors:
 
 journal-short: arXiv
 year: 2017
-journal: arXiv preprint
-
-doi:
-# use publisher only if no doi is available
-publisher: https://arxiv.org/abs/1712.05944
 
 bibentry: article
 bib:
@@ -53,7 +48,7 @@ bib:
 award:
 
 # Use if this paper is linked to an internal project. This will link to the project site
-#project: taggle
+project: taggle
 
 # Use this if you have an external project website
 external-project: https://taggle.caleydoapp.org

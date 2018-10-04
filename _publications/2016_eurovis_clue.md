@@ -21,14 +21,25 @@ authors:
 - Nicola Cosgrove
 - streit
 
-journal: Computer Graphics Forum (EuroVis '16), vol. 35, no. 3, pp. 491-500
+journal-short: CGF (EuroVis '16)
 year: 2016
+
+bibentry: article
+bib:
+  journal: Computer Graphics Forum (EuroVis '16)
+  booktitle: 
+  editor: 
+  publisher: 
+  address: 
+  doi: 10.1111/cgf.12925
+  url: https://onlinelibrary.wiley.com/doi/10.1111/cgf.12925/abstract
+  volume: 35
+  number: 3
+  pages: 491--500
+  month: jun
+
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award:
-
-doi: 10.1111/cgf.12925
-# The publisher URL - use only if no doi is available
-publisher:
 
 # Use if this paper is linked to an internal project. This will link to the project site
 project:
@@ -48,19 +59,16 @@ supplement: 2016_eurovis_clue_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-#- name: Vials Conference Talk Slides
-#  # use link instead of abslink if you want to link to the master directory
-#  abslink: http://vials.io/talk/
-#  # defaults to a download icon, use this if you want a link-out icon
-#  linksym: true
+ - name: Samuel Gratzl's Talk @ EuroVis'16 (PDF)
+   link: 2016_eurovis_clue_talk.pdf
+ - name: Samuel Gratzl's Talk  @ EuroVis'16 (PPTX)
+   link: 2016_eurovis_clue_talk.pptx
 
 # Link to the repository where the code is hostet
 code: https://github.com/Caleydo/caleydo_clue/
 
-bibtex: 2016_eurovis_clue.bib
-
 abstract: "
-<p>The primary goal of visual data exploration tools is to enable discovery of new insights. To justify such insights, the discovery process needs to be documented and communicated. A common approach to document and present such findings is to capture visualizations as images or videos. Images, however, are insufficient for telling the story of visual discovery, as they lack full provenance information and context. Videos are difficult to produce and edit, in particular due to the non-linear nature of the exploratory process. Most importantly, however, neither approach provides the opportunity to return to any point inthe exploration in order to review the state of the visualization in detail or to conduct additional analyses. In this paper we present <strong>CLUE</strong> (capture, label, understand, explain), a framework that tightly integrates data exploration and presentation of discoveries. Based on provenance data captured during the exploratory process, users can extract the key steps of the exploration, add annotations, and author “vistories” that can be shared for consumption, but that can also serve as the foundation for new discoveries. We discuss the integration of the CLUE approach in visualization tools and provide a prototypical implementation. Finally, we demonstrate the general applicability of the framework in two usage scenarios. The first one employs a Gapminder-inspired visualization to explore global public health data. The second usage scenario illustrate show CLUE can be used to create vistories for the publication of exploratory findings in scientific journals.</p>"
+<p>The primary goal of visual data exploration tools is to enable the discovery of new insights. To justify and reproduce insights, the discovery process needs to be documented and communicated. A common approach to documenting and presenting findings is to capture visualizations as images or videos. Images, however, are insufficient for telling the story of a visual discovery, as they lack full provenance information and context. Videos are difficult to produce and edit, particularly due to the non-linear nature of the exploratory process. Most importantly, however, neither approach provides the opportunity to return to any point in the exploration in order to review the state of the visualization in detail or to conduct additional analyses. In this paper we present <strong>CLUE</strong> (Capture, Label, Understand, Explain), a model that tightly integrates data exploration and presentation of discoveries. Based on provenance data captured during the exploration process, users can extract key steps, add annotations, and author 'Vistories', visual stories based on the history of the exploration. These Vistories can be shared for others to view, but also to retrace and extend the original analysis. We discuss how the CLUE approach can be integrated into visualization tools and provide a prototype implementation. Finally, we demonstrate the general applicability of the model in two usage scenarios: a Gapminder-inspired visualization to explore public health data and an example from molecular biology that illustrates how Vistories could be used in scientific journals.</p>"
 
 # After the --- you can put information that you want to appear on the website using markdown formatting or HTML. A good example are acknowledgements, extra references, an erratum, etc.
 ---
@@ -70,7 +78,7 @@ abstract: "
 <div style="display: flex;align-items: baseline;">
 <div style="width: 45%; margin: 0px 1em;">
     <a href="//vistories.org/v/gapminder" target="_blank">
-    <img src="{{site.baseurl}}/assets/images/papers/{{ page.key }}_gapminder.png" alt="GapMinder usage scenario">
+    <img src="{{site.baseurl}}/assets/images/publications/{{ page.key }}_gapminder.png" alt="GapMinder usage scenario">
     </a>
     <div class="caption">
       <a href="//vistories.org/v/gapminder" target="_blank">
@@ -82,7 +90,7 @@ abstract: "
   </div>
 <div style="width: 45%; margin: 0px 1em;">
     <a href="//vistories.org/v/stratomex" target="_blank">
-    <img src="{{site.baseurl}}/assets/images/papers/{{ page.key }}.png" alt="StratomeX usage scenario">
+    <img src="{{site.baseurl}}/assets/images/publications/{{ page.key }}.png" alt="StratomeX usage scenario">
     </a>
     <div class="caption">
       <a href="//vistories.org/v/stratomex" target="_blank">
@@ -95,4 +103,4 @@ abstract: "
 
 # Acknowledgements
 
-This work was supported in part by the Austrian Research Promotion Agency (840232) and the US National Institutes of Health (R00 HG007583 and U01 CA198935).
+This work was supported in part by the Austrian Science Fund (FWF P27975-NBL), the State of Upper Austria (FFG 851460), and the US National Institutes of Health (U01 CA198935).

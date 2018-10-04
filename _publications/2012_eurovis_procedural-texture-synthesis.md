@@ -15,13 +15,19 @@ authors:
 - streit
 - schmalstieg
 
-journal: Computer Graphics Forum (EuroVis '12), 31(3), pp. 1355-1364
+# Include a shortened name for the journal or conference/proceedings
+journal-short: CG (EuroVis '12)
 year: 2012
-award:
 
-doi: 10.1111/j.1467-8659.2012.03127.x
-# use publisher only if no doi is available
-publisher:
+bibentry: article
+bib:
+  journal: Computer Graphics Forum (EuroVis '12)
+  doi: 10.1111/j.1467-8659.2012.03127.x
+  volume: 31
+  number: 3
+  pages: 1355--1364
+
+award:
 
 non-caleydo-paper: true
 

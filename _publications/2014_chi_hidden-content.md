@@ -15,14 +15,16 @@ authors:
 - streit
 - schmalstieg
 
-journal: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’14), pp. 3705-3714
+journal-short: CHI (CHI '14)
 year: 2014
+
+bibentry: article
+bib:
+  journal: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI ’14)
+  doi: 10.1145/2556288.2557032
+  pages: 3705-3714
+
 award: ACM CHI 2014 Honorable Mention Award
-
-doi: 10.1145/2556288.2557032
-# use publisher only if no doi is available
-publisher:
-
 
 project: linking
 external-project:

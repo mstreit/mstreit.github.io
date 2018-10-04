@@ -15,13 +15,17 @@ authors:
 - streit
 - schmalstieg
 
-journal: Proceedings of the Workshop on Collaborative Visualization on Interactive Surfaces (CoVIS '09), in conjunction with VisWeek, ISSN 1862-5207, pp. 36-39
+# Include a shortened name for the journal or conference/proceedings
+journal-short: CoVIS (CoVIS '09)
 year: 2009
-award: 
 
-doi: 
-# use publisher only if no doi is available
-publisher: 
+bibentry: article
+bib:
+  journal: Proceedings of the Workshop on Collaborative Visualization on Interactive Surfaces (CoVIS '09), in conjunction with VisWeek
+  pages: 36--39
+  issn: 1862-5207
+
+award:  
 
 non-caleydo-paper: true
 

@@ -15,13 +15,18 @@ authors:
 - Katja Österreicher
 - Georg E. Steiner:
 
-journal: Journal of Cytometry Part A, 69A(3), pp. 119-123, 2006
+journal-short: Cytometry (CESCG '07)
 year: 2006
-award: 
 
-doi: 10.1002/cyto.a.20219
-# use publisher only if no doi is available
-publisher: 
+bibentry: article
+bib:
+  journal: Journal of Cytometry Part A
+  doi: 10.1002/cyto.a.20219
+  volume: 69A
+  number: 3
+  pages: 119--123
+
+award: 
 
 non-caleydo-paper: true
 

@@ -14,13 +14,18 @@ authors:
 - aigner
 - streit
 
-journal: IEEE Transactions on Visualization and Computer Graphics, 22(12), pp. 2594-2607
+journal-short: TVCG
 year: 2016
-award:
 
-doi: 10.1109/TVCG.2015.2513389
-# use publisher only if no doi is available
-publisher:
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics
+  doi: 10.1109/TVCG.2015.2513389
+  volume: 22
+  number: 12
+  pages: 2594-2607
+
+award:
 
 non-caleydo-paper: true
 

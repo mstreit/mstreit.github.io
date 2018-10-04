@@ -223,7 +223,7 @@ layout: default
     <b>{{ publication.title }}</b><br/>
     {{ publication.journal }}, {{publication.year}}{% if publication.to_appear %} (to appear){%endif%}.
 
-    {% if publication.abstract-pdf or publication.poster-pdf %}
+    {% if publication.abstract-pdf or publication.poster-pdf or publication.paper-pdf %}
   <p class="poster-link">
 
         <span style="float: left;">

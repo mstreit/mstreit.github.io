@@ -1,21 +1,4 @@
 - authors:
-  - Davide Ceneda
-  - Theresia Gschwandtner
-  - Thorsten May
-  - Silvia Miksch
-  - Hans-Jörg Schulz
-  - streit
-  - Christian Tominski
-  title: "Amending the Characterization of Guidance in Visual Analytics"
-  journal: Technical Report
-  year: 2017
-  abstract-pdf: 
-  poster-pdf:
-  paper-pdf: 2017_technical-report_amending-guidance-characterization.pdf
-  video: 
-  award:
-
-- authors:
   - ennemoser
   - ruch
   - stitz
@@ -80,6 +63,23 @@
   abstract-pdf: 2017_infovis_taggle_abstract.pdf
   poster-pdf: 2017_infovis_taggle_poster.pdf
   video: https://youtu.be/Okdfmxzab-M
+  award:
+
+- authors:
+  - Davide Ceneda
+  - Theresia Gschwandtner
+  - Thorsten May
+  - Silvia Miksch
+  - Hans-Jörg Schulz
+  - streit
+  - Christian Tominski
+  title: "Amending the Characterization of Guidance in Visual Analytics"
+  journal: Technical Report
+  year: 2017
+  abstract-pdf: 
+  poster-pdf:
+  paper-pdf: 2017_technical-report_amending-guidance-characterization.pdf
+  video: 
   award:
 
 - authors:

@@ -227,6 +227,11 @@ layout: default
   <p class="poster-link">
 
         <span style="float: left;">
+          {% if publication.paper-pdf %}
+            <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.paper_content_url}}{{ publication.paper-pdf }}">Paper</a>
+          &nbsp;
+          {% endif %}
+
           {% if publication.abstract-pdf %}
             <i class="fa fa-file-pdf-o"></i>&nbsp; <a href="{{site.poster_content_url}}{{ publication.abstract-pdf }}">Abstract</a>
           &nbsp;

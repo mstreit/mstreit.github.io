@@ -21,10 +21,10 @@ authors:
 - Christoph Pollak
 - Matej Vukovic
 - Gerti Kappel
-- Milot Gashi
-- Stefanie Rinderle-Ma
-- Josef Suschnigg
-- Nikolina Jekic
+- M. Gashi
+- S. Rinderle-Ma
+- J. Suschnigg
+- N. Jekic
 - Stefanie Lindstaedt
 
 journal: IEEE Conference on Business Informatics (CBI '18)

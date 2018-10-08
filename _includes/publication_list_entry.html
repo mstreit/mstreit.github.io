@@ -42,6 +42,7 @@
     {{ publication.institution }}, {{ publication.thesis_type }}, {{ publication.month }} {{ publication.year }}
 
     {% else %}
+
     {% assign published-where = '' %}
     {% if publication.bib.journal %}
     {% assign published-where = publication.bib.journal %}
@@ -49,6 +50,7 @@
     {% assign published-where = publication.bib.booktitle %}
     {% elsif publication.bib.publisher %}
     {% assign published-where = publication.bib.publisher %}
+    {% endif %}
 
     {% assign published-volume-number = '' %}
     {% if publication.bib.volume %}
@@ -60,7 +62,6 @@
     {% endif %}
 
     {% assign published-volume-number = published-volume | append: published-number | append: ',' %}
-
     {% endif %}
 
     {% assign published-pages = '' %}

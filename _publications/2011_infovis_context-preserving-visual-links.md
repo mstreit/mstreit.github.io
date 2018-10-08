@@ -7,7 +7,7 @@ type: paper
 
 
 shortname: LineUp
-image: /assets/images/papers/2011_infovis_context-preserving-visual-links.png
+image: 2011_infovis_context-preserving-visual-links.png
 
 authors:
 - Markus Steinberger

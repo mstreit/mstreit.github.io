@@ -6,7 +6,7 @@ permalink: /publications/2016_infovis_weightlifter/
 type: paper
 
 shortname:
-image: /assets/images/papers/2016_infovis_weightlifter.png
+image: 2016_infovis_weightlifter.png
 
 authors:
 - Stephan Pajer

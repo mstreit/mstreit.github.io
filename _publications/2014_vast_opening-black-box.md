@@ -6,7 +6,7 @@ permalink: /publications/2014_vast_opening-black-box/
 type: paper
 
 shortname:
-image: /assets/images/papers/2014_vast_opening-black-box.png
+image: 2014_vast_opening-black-box.png
 
 authors:
 - Thomas Mühlbacher

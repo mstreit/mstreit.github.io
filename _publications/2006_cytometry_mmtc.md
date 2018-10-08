@@ -6,7 +6,7 @@ permalink: /publications/2006_cytometry_mmtc/
 type: paper
 
 shortname:
-image: /assets/images/papers/2006_cytometry_mmtc.png
+image: 2006_cytometry_mmtc.png
 
 authors:
 - Rupert C. Ecker

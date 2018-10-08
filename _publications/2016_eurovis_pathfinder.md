@@ -9,9 +9,9 @@ type: paper
 # The shortname is used for auto-generated titels
 shortname: Pathfinder
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: /assets/images/papers/2016_eurovis_pathfinder.png
+image: 2016_eurovis_pathfinder.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: /assets/images/papers/2016_eurovis_pathfinder_teaser.png
+image_large: 2016_eurovis_pathfinder_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:

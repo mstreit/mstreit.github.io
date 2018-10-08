@@ -12,9 +12,9 @@ type: paper
 # Auto-generates titles and alt-descriptors
 shortname: KnowledgePearls
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: /assets/images/papers/2018_vast_knowledge-pearls.png
+image: 2018_vast_knowledge-pearls.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: /assets/images/papers/2018_vast_knowledge-pearls_teaser.png
+image_large: 2018_vast_knowledge-pearls_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:

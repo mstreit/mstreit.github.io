@@ -6,7 +6,7 @@ permalink: /publications/2018_cbi_industrial-process-management/
 type: paper
 
 shortname:
-image: /assets/images/papers/2018_cbi_industrial-process-management.png
+image: 2018_cbi_industrial-process-management.png
 
 authors:
 - Stefan Thalmann

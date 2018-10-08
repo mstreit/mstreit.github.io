@@ -8,7 +8,7 @@ redirect_from: /projects/furby.html
 
 
 shortname: furby
-image: /assets/images/papers/2014_bmc_furby.png
+image: 2014_bmc_furby.png
 
 authors:
 - streit

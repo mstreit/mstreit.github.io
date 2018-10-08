@@ -6,7 +6,7 @@ permalink: /publications/2018_euroVA_guidance-decision-tree/
 type: paper
 
 shortname:
-image: /assets/images/papers/2018_euroVA_guidance-decision-tree.png
+image: 2018_euroVA_guidance-decision-tree.png
 
 authors:
 - Davide Ceneda

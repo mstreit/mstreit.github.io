@@ -6,7 +6,7 @@ permalink: /publications/2015_pacificvis_cloudgazer/
 type: paper
 
 shortname:
-image: /assets/images/papers/2015_pacificvis_cloudgazer.png
+image: 2015_pacificvis_cloudgazer.png
 
 authors:
 - stitz

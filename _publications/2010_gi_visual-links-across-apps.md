@@ -7,7 +7,7 @@ type: paper
 
 
 shortname:
-image: /assets/images/papers/2010_gi_visual-links-across-apps.png
+image: 2010_gi_visual-links-across-apps.png
 
 authors:
 - Manuela Waldner

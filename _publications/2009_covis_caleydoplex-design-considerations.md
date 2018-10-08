@@ -7,7 +7,7 @@ type: paper
 
 
 shortname:
-image: /assets/images/papers/2009_covis_caleydoplex-design-considerations.png
+image: 2009_covis_caleydoplex-design-considerations.png
 
 authors:
 - Manuela Waldner

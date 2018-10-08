@@ -6,7 +6,7 @@ permalink: /publications/2016_vast_guidance/
 type: paper
 
 shortname:
-image: /assets/images/papers/2016_vast_guidance.png
+image: 2016_vast_guidance.png
 
 authors:
 - Davide Ceneda

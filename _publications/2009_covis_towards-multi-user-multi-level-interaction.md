@@ -7,7 +7,7 @@ type: paper
 
 
 shortname:
-image: /assets/images/papers/2009_covis_towards-multi-user-multi-level-interaction.png
+image: 2009_covis_towards-multi-user-multi-level-interaction.png
 
 authors:
 - streit

@@ -1,10 +1,10 @@
 <div class="paper-list-block" id="{{publication.key}}">
 
   {% if publication.non-caleydo-paper %}
-  <img alt="{{ publication.shortname }} screenshot" class="paper-image-small" src="{{ site.baseurl }}{{ publication.image }}">
+  <img alt="{{ publication.shortname }} screenshot" class="paper-image-small" src="{{ site.baseurl }}/assets/images/papers/{{ publication.image }}">
   {% else %}
   <a href="{{ site.caleydo_url }}{{ publication.url }}">
-    <img alt="{{ publication.shortname }} screenshot" class="paper-image-small" src="{{ site.baseurl }}{{ publication.image }}">
+    <img alt="{{ publication.shortname }} screenshot" class="paper-image-small" src="{{ site.baseurl }}/assets/images/papers/{{ publication.image }}">
   </a>
   {% endif %}
 

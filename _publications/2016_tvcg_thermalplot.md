@@ -6,7 +6,7 @@ permalink: /publications/2016_tvcg_thermalplot/
 type: paper
 
 shortname:
-image: /assets/images/papers/2016_tvcg_thermalplot.png
+image: 2016_tvcg_thermalplot.png
 
 authors:
 - stitz

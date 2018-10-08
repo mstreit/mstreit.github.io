@@ -6,7 +6,7 @@ permalink: /publications/2012_eurovis_procedural-texture-synthesis/
 type: paper
 
 shortname: 
-image: /assets/images/papers/2012_eurovis_procedural-texture-synthesis.png
+image: 2012_eurovis_procedural-texture-synthesis.png
 
 authors:
 - Rostislav Klebnikov

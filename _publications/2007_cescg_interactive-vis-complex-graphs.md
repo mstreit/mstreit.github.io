@@ -6,7 +6,7 @@ permalink: /publications/2007_cescg_interactive-vis-complex-graphs/
 type: paper
 
 shortname:
-image: /assets/images/papers/2007_cescg_interactive-vis-complex-graphs.png
+image: 2007_cescg_interactive-vis-complex-graphs.png
 
 authors:
 - streit

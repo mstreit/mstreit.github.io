@@ -6,7 +6,7 @@ permalink: /publications/2008_medivis_medical-glyphs/
 type: paper
 
 shortname:
-image: /assets/images/papers/2008_medivis_medical-glyphs.png
+image: 2008_medivis_medical-glyphs.png
 
 authors:
 - Heimo Müller

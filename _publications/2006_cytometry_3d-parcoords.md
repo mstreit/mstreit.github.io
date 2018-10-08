@@ -6,7 +6,7 @@ permalink: /publications/2006_cytometry_3d-parcoords/
 type: paper
 
 shortname:
-image: /assets/images/papers/2006_cytometry_3d-parcoords.png
+image: 2006_cytometry_3d-parcoords.png
 
 authors:
 - streit

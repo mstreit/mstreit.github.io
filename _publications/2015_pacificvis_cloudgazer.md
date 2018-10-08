@@ -19,11 +19,11 @@ year: 2015
 
 bibentry: article
 bib:
-  journal: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '15), pp. 175-182
+  journal: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '15)
   doi: 10.1109/PACIFICVIS.2015.7156375
   volume: 
   number: 
-  pages: 
+  pages: 175-182
 
 award:
 

@@ -49,9 +49,26 @@
     {% assign published-where = publication.bib.booktitle %}
     {% elsif publication.bib.publisher %}
     {% assign published-where = publication.bib.publisher %}
+
+    {% assign published-volume-number = '' %}
+    {% if publication.bib.volume %}
+    {% assign published-volume = publication.bib.volume %}
+    {% assign published-number = '' %}
+
+    {% if publication.bib.number %}
+    {% assign published-number = '(' | append: publication.bib.number | append: ')' %}
     {% endif %}
 
-    {{ published-where }}, {{ publication.year }}
+    {% assign published-volume-number = published-volume | append: published-number | append: ',' %}
+
+    {% endif %}
+
+    {% assign published-pages = '' %}
+    {% if publication.bib.pages %}
+    {% assign published-pages = 'pp.' | append: publication.bib.pages | append: ',' %}
+    {% endif %}
+
+    {{ published-where }}, {{published-volume-number}} {{published-pages}} {{ publication.year }}
     {% endif %}
 
     <br />

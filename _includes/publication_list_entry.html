@@ -66,7 +66,7 @@
 
     {% assign published-pages = '' %}
     {% if publication.bib.pages %}
-    {% assign published-pages = 'pp.' | append: publication.bib.pages | append: ',' %}
+    {% assign published-pages = 'pp. ' | append: publication.bib.pages | append: ',' %}
     {% endif %}
 
     {{ published-where }}, {{published-volume-number}} {{published-pages}} {{ publication.year }}

@@ -16,7 +16,7 @@ use_analytics: true
 
 paper_content_url: http://data.caleydo.org/papers/
 poster_content_url: http://data.caleydo.org/posters/
-caleydo_url: http://caleydo.org/
+caleydo_url: https://caleydo.org
 
 # Build settings
 markdown: kramdown

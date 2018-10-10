@@ -6,7 +6,7 @@ permalink: /publications/2008_medivis_medical-glyphs/
 type: paper
 
 shortname:
-image: /assets/images/papers/2008_medivis_medical-glyphs.png
+image: 2008_medivis_medical-glyphs.png
 
 authors:
 - Heimo Müller
@@ -14,13 +14,16 @@ authors:
 - streit
 - schmalstieg
 
-journal: Proceedings of the Conference on BioMedical Visualisation, pp. 29-35
+journal-short: BioMedical Visualisation
 year: 2008
-award: 
 
-doi: 10.1109/MediVis.2008.13
-# use publisher only if no doi is available
-publisher: 
+bibentry: article
+bib:
+  journal: Proceedings of the Conference on BioMedical Visualisation
+  doi: 10.1109/MediVis.2008.13
+  pages: 29--35
+
+award: 
 
 non-caleydo-paper: true
 

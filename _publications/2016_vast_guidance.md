@@ -6,7 +6,7 @@ permalink: /publications/2016_vast_guidance/
 type: paper
 
 shortname:
-image: /assets/images/papers/2016_vast_guidance.png
+image: 2016_vast_guidance.png
 
 authors:
 - Davide Ceneda
@@ -17,13 +17,18 @@ authors:
 - streit
 - Christian Tominski
 
-journal: IEEE Transactions on Visualization and Computer Graphics (VAST '16), 23(1), pp. 111-120
+journal-short: TVCG (VAST '16)
 year: 2017
-award:
 
-doi: 10.1109/TVCG.2016.2598468
-# use publisher only if no doi is available
-publisher:
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (VAST '16)
+  doi: 10.1109/TVCG.2016.2598468
+  volume: 23
+  number: 1
+  pages: 111--120
+
+award:
 
 non-caleydo-paper: true
 

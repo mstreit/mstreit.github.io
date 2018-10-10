@@ -12,9 +12,9 @@ type: preprint
 # The shortname is used for auto-generated titels
 shortname: Taggle
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: /assets/images/papers/2017_preprint_taggle.png
+image: 2017_preprint_taggle.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: /assets/images/papers/2017_preprint_taggle_teaser.png
+image_large: 2017_preprint_taggle_teaser.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -29,11 +29,6 @@ authors:
 
 journal-short: arXiv
 year: 2017
-journal: arXiv preprint
-
-doi:
-# use publisher only if no doi is available
-publisher: https://arxiv.org/abs/1712.05944
 
 bibentry: article
 bib:
@@ -53,7 +48,7 @@ bib:
 award:
 
 # Use if this paper is linked to an internal project. This will link to the project site
-#project: taggle
+project: taggle
 
 # Use this if you have an external project website
 external-project: https://taggle.caleydoapp.org

@@ -6,7 +6,7 @@ permalink: /publications/2014_vast_opening-black-box/
 type: paper
 
 shortname:
-image: /assets/images/papers/2014_vast_opening-black-box.png
+image: 2014_vast_opening-black-box.png
 
 authors:
 - Thomas Mühlbacher
@@ -15,13 +15,18 @@ authors:
 - Michael Sedlmair
 - streit
 
-journal: IEEE Transactions on Visualization and Computer Graphics (VAST '14), 20(12), pp. 1643-1652
+journal-short: TVCG (VAST '14)
 year: 2014
-award:
 
-doi: 10.1109/TVCG.2014.2346578
-# use publisher only if no doi is available
-publisher:
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (VAST '14)
+  doi: 10.1109/TVCG.2014.2346578
+  volume: 20
+  number: 12
+  pages: 1643-1652
+
+award:
 
 non-caleydo-paper: true
 

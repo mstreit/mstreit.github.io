@@ -7,7 +7,7 @@ type: paper
 
 
 shortname: LineUp
-image: /assets/images/papers/2011_infovis_context-preserving-visual-links.png
+image: 2011_infovis_context-preserving-visual-links.png
 
 authors:
 - Markus Steinberger
@@ -16,14 +16,19 @@ authors:
 - lex
 - schmalstieg
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '11), 17(12), pp. 2249-2258
+# Include a shortened name for the journal or conference/proceedings
+journal-short: TVCG (InfoVis '11)
 year: 2011
-award: IEEE InfoVis 2011 Best Paper Award
 
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '11)
+  doi: 10.1109/TVCG.2011.183
+  volume: 17
+  number: 12
+  pages: 2249--2258
 
-doi: 10.1109/TVCG.2011.183
-# use publisher only if no doi is available
-publisher: 
+award: 
 
 non-caleydo-paper: true
 

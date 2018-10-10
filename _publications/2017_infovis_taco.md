@@ -9,9 +9,9 @@ type: paper
 # The shortname is used for auto-generated titels
 shortname: TACO
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: /assets/images/papers/2017_infovis_taco_teaser.png
+image: 2017_infovis_taco_teaser.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: /assets/images/papers/2017_infovis_taco.png
+image_large: 2017_infovis_taco.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -22,21 +22,39 @@ authors:
 - Wolfgang Aigner
 - streit
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '17), 24(1), pp. 677-686
+# Include a shortened name for the journal or conference/proceedings
+journal-short: TVCG (InfoVis '17)
 year: 2018
 
-# Set `to_appear: 1` if no DOI and pages are available
-#to_appear: 1
+# Create BibTeX info, using one of the entry choices
+# Articles have a "journal", and inproceedings have a "booktitle"
+# Preprints are articles with the location of preprint mentioned in "journal"
+# You can remove fields you don't need, or else leave them blank
+# Try to include a DOI, or use the publisher URL below
+# Specify new BibTeX fields by adding a new key and value inside "bib:"
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '17)
+  booktitle: 
+  editor: 
+  doi: 10.1109/TVCG.2017.2745298
+  publisher:
+  address: 
+  url: 
+  volume: 24
+  number: 1
+  pages: 677-686
+  month:
+
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: 
 
-doi: 10.1109/TVCG.2017.2745298
-# use publisher only if no doi is available
+
 publisher: 
 
 # Use if this paper is linked to an internal project. This will link to the project site
-project:
+project: taco
 
 # Use this if you have an external project website
 #external-project: 
@@ -46,18 +64,18 @@ preview-video: 2017_infovis_taco_video_preview
 
 # the prerint
 pdf: 2017_infovis_taco.pdf
-bibtex:
+bibtex: 2017_infovis_taco.bib
 
 # A supplement PDF
 #supplement: 2017_infovis_taco_supplement.pdf
 
 # Extra supplements, such as talk slides, data sets, etc.
 supplements:
-#- name: Vials Conference Talk Slides
-#  # use link instead of abslink if you want to link to the master directory
-#  abslink: http://vials.io/talk/
-#  # defaults to a download icon, use this if you want a link-out icon
-#  linksym: true
+- name: Conference Talk Slides
+  # use link instead of abslink if you want to link to the master directory
+  abslink: http://data.caleydo.org/papers/2017_infovis_taco_presentation.pdf
+  # defaults to a download icon, use this if you want a link-out icon
+  linksym: true
 
 # Link to the repository where the code is hostet
 code: https://github.com/Caleydo/taco/
@@ -73,4 +91,5 @@ abstract: "
 
 # Acknowledgements
 
-We want to thank Samuel Gratzl for his contributions made during all phases of the project as well as to the implementation of the prototype system. We would also like to thank Nils Gehlenborg for giving domain specific input on the biomedical usage scenario and for providing feedback on the prototype implementation and its potential value for domain experts. This work was funded by the Austrian Science Fund as part of the _VisOnFire_ project (FWF P27975-NBL) and the Austrian Ministry for Transport, Innovation and Technology (BMVIT) under the ICT of the future program via the VALiD project (FFG 845598)}.
+We want to thank Samuel Gratzl for his contributions made during all phases of the project as well as to the implementation of the prototype system. We would also like to thank Nils Gehlenborg for giving domain specific input on the biomedical usage scenario and for providing feedback on the prototype implementation and its potential value for domain experts. This work was funded by the Austrian Science Fund as part of the _VisOnFire_ project (FWF P27975-NBL), the State of
+Upper Austria (FFG 851460), and the Austrian Ministry for Transport, Innovation and Technology (BMVIT) under the ICT of the future program via the VALiD project (FFG 845598).

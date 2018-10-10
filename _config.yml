@@ -2,7 +2,7 @@
 title: Marc Streit
 email: marc.streit@jku.at
 description: "Marc Streit, Assistant Professor @ Johannes Kepler University Linz, Austria. His scientific ares of interest include information visualization, visual analytics, and biological data visualization."
-baseurl: "/mstreit.github.io/"
+baseurl: "/mstreit.github.io"
 url: "http://marc-streit.com"
 twitter: marc_streit
 github:  mstreit
@@ -16,7 +16,7 @@ use_analytics: true
 
 paper_content_url: http://data.caleydo.org/papers/
 poster_content_url: http://data.caleydo.org/posters/
-caleydo_url: http://caleydo.org/
+caleydo_url: https://caleydo.org
 
 # Build settings
 markdown: kramdown

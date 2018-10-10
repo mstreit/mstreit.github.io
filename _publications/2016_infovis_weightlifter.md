@@ -6,7 +6,7 @@ permalink: /publications/2016_infovis_weightlifter/
 type: paper
 
 shortname:
-image: /assets/images/papers/2016_infovis_weightlifter.png
+image: 2016_infovis_weightlifter.png
 
 authors:
 - Stephan Pajer
@@ -16,13 +16,18 @@ authors:
 - Torsten Möller
 - Harald Piringer
 
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '16), 23(1), pp. 611-620
-year: 2017
-award:
+journal-short: TVCG (InfoVis '16)
+year: 2016
 
-doi: 10.1109/TVCG.2016.2598589
-# use publisher only if no doi is available
-publisher:
+bibentry: article
+bib:
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '16)
+  doi: 10.1109/TVCG.2015.2513389
+  volume: 23
+  number: 1
+  pages: 611-620
+
+award:
 
 non-caleydo-paper: true
 

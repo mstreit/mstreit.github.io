@@ -6,7 +6,7 @@ permalink: /publications/2015_pacificvis_cloudgazer/
 type: paper
 
 shortname:
-image: /assets/images/papers/2015_pacificvis_cloudgazer.png
+image: 2015_pacificvis_cloudgazer.png
 
 authors:
 - stitz
@@ -14,13 +14,18 @@ authors:
 - Michael Krieger
 - streit
 
-journal: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '15), pp. 175-182
+journal-short: PacificVis (PacificVis '16)
 year: 2015
-award:
 
-doi: 
-# use publisher only if no doi is available
-publisher:
+bibentry: article
+bib:
+  journal: Proceedings of IEEE Pacific Visualization Symposium (PacificVis '15)
+  doi: 10.1109/PACIFICVIS.2015.7156375
+  volume: 
+  number: 
+  pages: 175-182
+
+award:
 
 non-caleydo-paper: true
 

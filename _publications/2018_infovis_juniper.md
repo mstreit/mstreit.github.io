@@ -15,9 +15,9 @@ redirect_from: /publications/2018_preprint_juniper
 # Auto-generates titles and alt-descriptors
 shortname: Juniper
 # Add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/publications/
-image: /assets/images/papers/2018_infovis_juniper.png
+image: 2018_infovis_juniper.png
 # Add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/publications/
-image_large: /assets/images/papers/2018_infovis_juniper_teaser.png
+image_large: 2018_infovis_juniper_teaser.png
 
 # Authors in the "database" can be used with just their person "key"
 authors:
@@ -26,11 +26,8 @@ authors:
 - lex
 
 # Include a shortened name for the journal or conference/proceedings
-journal-short: TVCG (InfoVis'18), to appear
+journal-short: TVCG (InfoVis '18), to appear
 year: 2018
-journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis'18)
-
-to_appear: 1
 
 # Create BibTeX info, using one of the entry choices
 # Articles have a "journal", and inproceedings have a "booktitle"
@@ -40,7 +37,7 @@ to_appear: 1
 # Specify new BibTeX fields by adding a new key and value inside "bib:"
 bibentry: article
 bib:
-  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis ’18), to appear
+  journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '18), to appear
   booktitle: 
   editor: 
   publisher:
@@ -54,9 +51,6 @@ bib:
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
 award: 
-
-# Provide a link to the publisher's webpage if no DOI is available
-publisherURL: 
 
 # Link to an official preprint server
 preprint_server: https://arxiv.org/abs/1804.03261

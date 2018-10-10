@@ -6,18 +6,19 @@ permalink: /publications/2007_cescg_interactive-vis-complex-graphs/
 type: paper
 
 shortname:
-image: /assets/images/papers/2007_cescg_interactive-vis-complex-graphs.png
+image: 2007_cescg_interactive-vis-complex-graphs.png
 
 authors:
 - streit
 
-journal: Proceedings of the Central European Seminar on Computer Graphics (CESCG '07)
+journal-short: CESCG (CESCG '07)
 year: 2007
-award: 
 
-doi: 
-# use publisher only if no doi is available
-publisher: 
+bibentry: article
+bib:
+  journal: Proceedings of the Central European Seminar on Computer Graphics (CESCG '07)
+
+award: 
 
 non-caleydo-paper: true
 

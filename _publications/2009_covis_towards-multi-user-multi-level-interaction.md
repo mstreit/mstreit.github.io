@@ -7,7 +7,7 @@ type: paper
 
 
 shortname:
-image: /assets/images/papers/2009_covis_towards-multi-user-multi-level-interaction.png
+image: 2009_covis_towards-multi-user-multi-level-interaction.png
 
 authors:
 - streit
@@ -15,13 +15,17 @@ authors:
 - schmalstieg
 - Heidrun Schumann
 
-journal: Proceedings of the Workshop on Collaborative Visualization on Interactive Surfaces (CoVIS '09), in conjunction with VisWeek, ISSN 1862-5207, pp. 5-8
+# Include a shortened name for the journal or conference/proceedings
+journal-short: CoVIS (CoVIS '09)
 year: 2009
-award: 
 
-doi: 
-# use publisher only if no doi is available
-publisher: 
+bibentry: article
+bib:
+  journal: Proceedings of the Workshop on Collaborative Visualization on Interactive Surfaces (CoVIS '09), in conjunction with VisWeek
+  pages: 5--8
+  issn: 1862-5207
+
+award: 
 
 non-caleydo-paper: true
 

@@ -4,10 +4,11 @@ title: "Furby: Fuzzy Force-Directed Bicluster Visualization"
 key: 2014_bmc_furby
 permalink: /publications/2014_bmc_furby/
 type: paper
+redirect_from: /projects/furby.html
 
 
 shortname: furby
-image: /assets/images/papers/2014_bmc_furby.png
+image: 2014_bmc_furby.png
 
 authors:
 - streit
@@ -17,14 +18,32 @@ authors:
 - Andreas Mitterecker
 - Sepp Hochreiter
 
-journal: BMC Bioinformatics, 15(Suppl 6), p. S4
+# Include a shortened name for the journal or conference/proceedings
+journal-short: BMC
 year: 2014
+
+# Create BibTeX info, using one of the entry choices
+# Articles have a "journal", and inproceedings have a "booktitle"
+# Preprints are articles with the location of preprint mentioned in "journal"
+# You can remove fields you don't need, or else leave them blank
+# Try to include a DOI, or use the publisher URL below
+# Specify new BibTeX fields by adding a new key and value inside "bib:"
+bibentry: article
+bib:
+  journal: BMC Bioinformatics, 15(Suppl 6), p. S4
+  booktitle: 
+  editor: 
+  doi: 10.1186/1471-2105-15-S6-S4
+  publisher:
+  address: 
+  url: 
+  volume: 15
+  number: Suppl 6
+  pages: S4
+  month:
+
 award:
 note: 
-
-doi: 10.1186/1471-2105-15-S6-S4
-# use publisher only if no doi is available
-publisher: 
 
 project: furby
 
@@ -57,12 +76,12 @@ Datasets
 
 The following projects contain public demo data, which can be used to test Furby. But everyone is welcome to load his/her own data, via the `Load BiCluster Results` tab within the Caleydo Startup-Wizard.
 
-* <i class="fa fa-download"></i>&nbsp;[Caleydo-Project (CAL)]({{site.paper_content_url}}/2014_bmc_furby_multi_tissue_fabia20.cal) containing Microarray data from Broad Institute "Cancer Program Data Sets" which was produced by [Su et al. 2002](http://www.broadinstitute.org/cgi-bin/cancer/datasets.cgi). It consists of 102 samples and 5565 genes as was clustered using the FABIA algorithm.
+* <i class="fa fa-download"></i>&nbsp;[Caleydo-Project (CAL)]({{site.paper_content_url}}/2014_bmc_furby_multi_tissue_fabia20.cal) containing Microarray data from Broad Institute "Cancer Program Data Sets" which was produced by [Su et al. 2002](https://www.broadinstitute.org/cgi-bin/cancer/datasets.cgi). It consists of 102 samples and 5565 genes as was clustered using the FABIA algorithm.
 * <i class="fa fa-download"></i>&nbsp;[Zip package (ZIP)]({{site.paper_content_url}}/2014_bmc_furby_multi_tissue_fabia20.zip) containing the exported CSV-files using to create the previous Caleydo-Project
 
 Utilities
 =========
 We provide two helper R-Scripts, which simplify exporting R bicluster results in the correct format.
 
-* <i class="fa fa-download"></i>&nbsp;[R-Script]({{site.paper_content_url}}/2014_bmc_furby_export_fabia.R) for exporting FABIA results, generated via the [fabia](http://www.bioconductor.org/packages/2.12/bioc/html/fabia.html) bioconductor package.
-* <i class="fa fa-download"></i>&nbsp;[R-Script]({{site.paper_content_url}}/2014_bmc_furby_export_biclust.R) for exporting result from the [biclust](http://cran.r-project.org/web/packages/biclust/index.html) CRAN package.
+* <i class="fa fa-download"></i>&nbsp;[R-Script]({{site.paper_content_url}}/2014_bmc_furby_export_fabia.R) for exporting FABIA results, generated via the [fabia](https://www.bioconductor.org/packages/2.12/bioc/html/fabia.html) bioconductor package.
+* <i class="fa fa-download"></i>&nbsp;[R-Script]({{site.paper_content_url}}/2014_bmc_furby_export_biclust.R) for exporting result from the [biclust](https://cran.r-project.org/web/packages/biclust/index.html) CRAN package.

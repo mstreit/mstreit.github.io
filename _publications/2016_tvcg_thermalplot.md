@@ -30,7 +30,7 @@ award:
 non-caleydo-paper: true
 
 project: 
-external-project: http://thermalplot.pipes-vs-dams.at/
+external-project: https://thinkh.github.io/thermalplot/
 
 video: 2016_tvcg_thermalplot_video
 preview-video:

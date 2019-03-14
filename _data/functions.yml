@@ -59,8 +59,12 @@
   years: 2017, 2013 - 2015
 
 - role: Program Committee
+  for: IEEE Conference on Visual Analytics Science and Technology (VAST)
+  years: 2019  
+
+- role: Program Committee
   for: EuroVis Workshop on Visual Analytics (EuroVA)
-  years: 2017 - 2018, 2013 - 2015
+  years: 2017 - 2019, 2013 - 2015 
 
 - role: Program Committee
   for: Eurographics Conference on Visualization Short Papers (EuroVis Short Papers)
@@ -68,7 +72,15 @@
 
 - role: Program Committee
   for: Eurographics Conference on Visualization (EuroVis)
-  years: 2014 - 2016
+  years: 2019, 2014 - 2016
+
+- role: Program Committee
+  for: Workshop on Molecular Graphics and Visual Analysis of Molecular Data (MolVA)
+  years: 2019
+
+- role: Program Committee
+  for: Process Management in Digital Production (DiPro)
+  years: 2019
 
 - role: Program Committee
   for: Conference on Cognitive Computing and Data-driven Business (i-KNOW)

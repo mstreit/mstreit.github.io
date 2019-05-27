@@ -1,24 +1,49 @@
-- date: Since 2018-02
-  title: Visualization of Mathmatical Problems Using Particles
-  name: Vaishali Dhanoa
-  type: Master's Project
+- date: Since 2019-02
+  title: tbd
+  name: Patrick Adelberger
+  type: PhD Thesis
+
+- date: Since 2019-01
+  title: tbd
+  name: Andreas Hinterreiter
+  type: PhD Thesis
+
+- date: Since 2019-02
+  title: tbd
+  name: Klaus Eckelt
+  type: PhD Thesis
+
+- date: Since 2019-10
+  title: tbd
+  name: Klaus Eckelt
+  type: PhD Thesis
+
+- date: Since 2019-03
+  title: Rubik’s Cube Solver Demonstrator
+  name: Moritz Schöfl
+  type: Bachelor's Thesis
 
 - date: Since 2018-02
   title: Fusing Data Analysis with Data Wrangling
   name: Dominik Dirmeier
   type: Bachelor's Thesis
 
-- date: Since 2018-01
-  title: Visualizing Rubik's Cube Solving Strategies
+- date: 2018-02 - 2019/02
+  title: Visualization of Fundamental Computer Graphics Concepts
+  name: Vaishali Dhanoa
+  type: Master's Project
+
+- date: 2018-01 - 2019/01
+  title: Rubik’s Cube Solver Visualization
   name: Christian Steinparz
   type: Bachelor's Thesis
 
-- date: Since 2013-11
-  title: Visual Analysis of Large, Heterogeneous, Multi-Scale IT-Infrastruct. Data
+- date: 2013-11 - 2018-04
+  title: Interactive Focus+Context Analysis of Time-Series and Provenance Data
   name: Holger Stitz
   type: PhD Thesis
 
-- date: Since 2012-06
+- date: 2012-06 - 2018-12
   title: Visual Integration of Heterogeneous Data and Its Representations
   name: Christian Partl
   type: PhD Thesis

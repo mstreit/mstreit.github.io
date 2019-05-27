@@ -28,20 +28,20 @@
   contribution: Lecture (visualization part)
   years: 2014
 
-- title: Visualisation (bs2307)
-  institution: imperial
-  contribution: Lecture and lab (online module)
-  years: since 2019
-
 - title: Visualisation (BS1807)
   institution: imperial
   contribution: Lecture and lab (together with Andy Kirk, Ryo Sarkai)
   years: since 2016
 
+- title: Visualisation (bs2307)
+  institution: imperial
+  contribution: Lecture and lab (online module)
+  years: since 2019
+
 - title: Visual Analytics
   institution: fhs
   contribution: Lecture and lab (bi-yearly)
-  years: since 2013
+  years: 2013 - 2018
 
 - title: Computer Graphics
   institution: fhs

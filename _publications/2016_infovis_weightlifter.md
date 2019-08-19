@@ -22,7 +22,7 @@ year: 2016
 bibentry: article
 bib:
   journal: IEEE Transactions on Visualization and Computer Graphics (InfoVis '16)
-  doi: 10.1109/TVCG.2015.2513389
+  doi: 10.1109/TVCG.2016.2598589
   volume: 23
   number: 1
   pages: 611-620

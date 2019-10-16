@@ -11,9 +11,3 @@
   teaser: caleydo.png
   url: http://www.caleydo.org/
   logo: /assets/images/logos/caleydo.svg
-
-- title: Visual Analysis of Cloud-Based Networks
-  name: Pipes-vs-Dams
-  standfirst: Privacy preserving visual dynamic network analysis for advanced system monitoring on multiple scales.
-  teaser: pvd.png
-  url: http://www.pipes-vs-dams.at

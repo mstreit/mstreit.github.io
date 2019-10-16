@@ -1,3 +1,21 @@
+- title: "Visual Analysis of Heterogeneous Biomolecular Data"
+  event: "Modern Concepts in Structural Biology, University of Vienna" 
+  date: 2019-11-14
+  location: Vienna, Austria
+  type: invited talk
+
+- title: "Visualization & Explainable AI"
+  event: "Meetup: Art meets Science" 
+  date: 2019-09-17
+  location: Berlin, Germany
+  type: invited talk
+
+- title: "Visual Data Science & Explainable AI"
+  event: Bayer 
+  date: 2019-09-17
+  location: Berlin, Germany
+  type: invited talk
+
 - title: "Trust Me, I am a Visualization"
   event: EuroVis Workshop on Trustworthy Visualization (TrustVis)
   date: 2019-06-03

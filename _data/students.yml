@@ -23,6 +23,11 @@
   name: Klaus Eckelt
   type: PhD Thesis
 
+- date: Since 2018-02
+  title: Fusing Data Analysis with Data Wrangling
+  name: Dominik Dirmeier
+  type: Bachelor's Thesis
+
 - date: 2019-03 - 2019-10
   title: "InstanceFlow: Visualizing the Evolution of Instance Classification in Deep Learning"
   name: Michael Pühringer
@@ -31,11 +36,6 @@
 - date: 2019-03 - 2019-09
   title: Rubik’s Cube Solution Algorithm Demonstrator
   name: Moritz Schöfl
-  type: Bachelor's Thesis
-
-- date: Since 2018-02
-  title: Fusing Data Analysis with Data Wrangling
-  name: Dominik Dirmeier
   type: Bachelor's Thesis
 
 - date: 2018-02 - 2019/02

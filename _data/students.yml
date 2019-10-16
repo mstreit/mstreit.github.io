@@ -1,13 +1,13 @@
-- date: Since 2019-03
-  title: Visualizing the Evolution of Instance Classification in Deep Learning
-  name: Michael Pühringer
-  type: Bachelor's Thesis
+- date: Since 2019-10
+  title: Provenance Intent (working title)
+  name: Conny Walchshofer
+  type: PhD Thesis  
 
-- date: Since 2019-03
-  title: Rubik’s Cube Solver Demonstrator
-  name: Moritz Schöfl
-  type: Bachelor's Thesis
-  
+- date: Since 2019-10
+  title: Fuzzy Spreadsheets (working title)
+  name: Vaishali Dhanoa
+  type: PhD Thesis
+
 - date: Since 2019-02
   title: tbd
   name: Patrick Adelberger
@@ -22,6 +22,16 @@
   title: tbd
   name: Klaus Eckelt
   type: PhD Thesis
+
+- date: 2019-03 - 2019-10
+  title: "InstanceFlow: Visualizing the Evolution of Instance Classification in Deep Learning"
+  name: Michael Pühringer
+  type: Bachelor's Thesis
+
+- date: 2019-03 - 2019-09
+  title: Rubik’s Cube Solution Algorithm Demonstrator
+  name: Moritz Schöfl
+  type: Bachelor's Thesis
 
 - date: Since 2018-02
   title: Fusing Data Analysis with Data Wrangling

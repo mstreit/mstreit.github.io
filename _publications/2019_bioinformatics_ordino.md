@@ -6,7 +6,7 @@ key: 2019_bioinformatics_ordino
 # paper | preprint | poster
 type: paper
 # optional url for a different site; defaults to data.caleydo.org
-#paper_content_url: https://doi.org/10.1101/277848
+paper_content_url: https://doi.org/10.1093/bioinformatics/btz009
 
 
 # The shortname is used for auto-generated titels
@@ -26,21 +26,21 @@ authors:
 - Christian Haslinger
 
 
-journal-short: Bioinformatics, to appear
+journal-short: Bioinformatics
 year: 2019
 
 bibentry: article
 bib:
-  journal: Bioinformatics, to appear
+  journal: Bioinformatics
   booktitle: 
   editor: 
   publisher: Oxford University Press
   address: 
-  doi: 10.1101/277848
+  doi: 10.1093/bioinformatics/btz009
   url: 
-  volume: 
-  number: 
-  pages: 
+  volume: 35
+  number: 17
+  pages: 3140-3142
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"

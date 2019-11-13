@@ -59,7 +59,7 @@ video: 2017_preprint_taggle_video
 #preview-video:
 
 # the prerint
-pdf: 2017_preprint_taggle.pdf
+pdf: 2019_preprint_taggle.pdf
 # A supplement PDF
 #supplement: 2017_preprint_taggle_supplement.pdf
 

@@ -2,7 +2,7 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "Taggle: Combining Overview and Details in Tabular Data Visualizations"
-key: 2017_preprint_taggle
+key: 2019_sage_infovis_taggle
 # paper | preprint | poster
 type: preprint
 # optional url for a different site; defaults to data.caleydo.org
@@ -12,9 +12,9 @@ type: preprint
 # The shortname is used for auto-generated titels
 shortname: Taggle
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2017_preprint_taggle.png
+image: 2019_sage_infovis_taggle.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2017_preprint_taggle_teaser.png
+image_large: 2019_sage_infovis_taggle.png
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
@@ -27,7 +27,7 @@ authors:
 - lex
 - streit
 
-journal-short: arXiv
+journal-short: Information Visualization
 year: 2019
 
 bibentry: article
@@ -35,10 +35,10 @@ bib:
   journal: Information Visualization, to appear
   booktitle: 
   editor: 
-  publisher: 
+  publisher: Sage
   address: 
   doi: 10.1177/1473871619878085
-  url: 
+  url:
   volume: 
   number: 
   pages: 
@@ -48,18 +48,18 @@ bib:
 award:
 
 # Use if this paper is linked to an internal project. This will link to the project site
-project: taggle
+project: lineup
 
 # Use this if you have an external project website
 external-project: https://lineup.js.org
 
 # The reference to the video entry
-video: 2017_preprint_taggle_video
+video: 2019_sage_infovis_taggle_video
 # The reference to the preview video entry
 #preview-video:
 
 # the prerint
-pdf: 2019_preprint_taggle.pdf
+pdf: 2019_sage_infovis_taggle.pdf
 # A supplement PDF
 #supplement: 2017_preprint_taggle_supplement.pdf
 

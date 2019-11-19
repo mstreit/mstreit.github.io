@@ -37,8 +37,8 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi: 
-  url: https://arxiv.org/abs/1712.05944
+  doi: 10.1177/1473871619878085
+  url: 
   volume: 
   number: 
   pages: 

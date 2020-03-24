@@ -8,7 +8,11 @@
   - Christian Blecha
   - streit
   - Amitabh Varshney
-  editors: Min Chen, Helwig Hauser, Penny Rheingans, and Gerik Scheuermann
+  editors: 
+  - Min Chen
+  - Helwig Hauser
+  - Penny Rheingans
+  - Gerik Scheuermann 
   image: /assets/images/covers/2020_springer_foundations-of-data-vis.jpg
   publisher: https://www.springer.com/gp/book/9783030344436
 
@@ -27,6 +31,10 @@
   - streit
   - Johannes Waschke
   - Yong Wan
-  editors: Min Chen, Helwig Hauser, Penny Rheingans, and Gerik Scheuermann 
+  editors: 
+  - Min Chen
+  - Helwig Hauser
+  - Penny Rheingans
+  - Gerik Scheuermann 
   image: /assets/images/covers/2020_springer_foundations-of-data-vis.jpg
   publisher: https://www.springer.com/gp/book/9783030344436 

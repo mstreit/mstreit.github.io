@@ -1,10 +1,10 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "The State of the Art in Visualizing Multivariate Networks"
-key: 2019_eurovis_mvnv
+title: "Survey on the Analysis of User Interactions andVisualization Provenance"
+key: 2020_eurovis_anaprov
 # paper | preprint | poster
-type: paper
+type: preprint
 # optional url for a different site; defaults to data.caleydo.org
 paper_content_url: 
 
@@ -12,32 +12,34 @@ paper_content_url:
 # The shortname is used for auto-generated titels
 shortname: MVNV
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2019_eurovis_mvnv.png
+image: 2020_eurovis_anaprov.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
-image_large: 2019_eurovis_mvnv_teaser.png
+image_large: 
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Carolina Nobre
+- Kai Xu
+- Alvitta Ottley
+- Conny Walchshofer
 - streit
-- Miriah Meyer
-- lex
+- Remco Chang
+- John Wenskovitch 
 
-journal-short: Computer Graphics Forum (EuroVis '19)
-year: 2019
+journal-short: Preprint
+year: 2020
 
 bibentry: article
 bib:
-  journal: Computer Graphics Forum (EuroVis '19)
+  journal: Preprint
   booktitle: 
   editor: 
-  publisher: Eurographics
+  publisher:
   address: 
-  doi: 10.1111/cgf.13728
-  url:
-  volume: 38
-  number: 3
-  pages: 807-832
+  doi: 
+  url: https://osf.io/jux76
+  volume: 
+  number: 
+  pages: 
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
@@ -49,7 +51,7 @@ non-caleydo-paper: true
 project: 
 
 # Use this if you have an external project website
-external-project: https://vdl.sci.utah.edu/mvnv/
+external-project: https://osf.io/jux76
 
 # The reference to the video entry
 video: 
@@ -57,7 +59,7 @@ video:
 #preview-video:
 
 # the prerint
-pdf: 2019_eurovis_mvnv.pdf
+pdf: 2020_eurovis_anaprov.pdf
 # A supplement PDF
 #supplement: 2017_preprint_taggle_supplement.pdf
 

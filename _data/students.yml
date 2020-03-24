@@ -1,3 +1,8 @@
+- date: Since 2020-03
+  title: LineUp + Time (working title)
+  name: Vanessa Stoiber
+  type: BSc Thesis
+
 - date: Since 2019-10
   title: Provenance Intent (working title)
   name: Conny Walchshofer
@@ -21,9 +26,9 @@
 - date: Since 2018-11
   title: Visual Cohort Analysis (working title)
   name: Klaus Eckelt
-  type: PhD Thesis
+  type: PhD Thesis  
 
-- date: Since 2018-02
+- date: 2018-02 - 2019-12
   title: Fusing Data Analysis with Data Wrangling
   name: Dominik Dirmeier
   type: Bachelor's Thesis

@@ -2,7 +2,7 @@
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
 title: "The State of the Art in Visualizing Multivariate Networks"
-key: 2019_eurovis_mvn
+key: 2019_eurovis_mvnv
 # paper | preprint | poster
 type: paper
 # optional url for a different site; defaults to data.caleydo.org
@@ -10,9 +10,9 @@ type: paper
 
 
 # The shortname is used for auto-generated titels
-shortname: MVN
+shortname: MVNV
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2019_eurovis_mvn.png
+image: 2019_eurovis_mvnv.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 
 
@@ -43,7 +43,7 @@ bib:
 award:
 
 # Use if this paper is linked to an internal project. This will link to the project site
-project: mvn
+project: mvnv
 
 # Use this if you have an external project website
 external-project: https://vdl.sci.utah.edu/mvnv/
@@ -54,7 +54,7 @@ video:
 #preview-video:
 
 # the prerint
-pdf: 2019_eurovis_mvn.pdf
+pdf: 2019_eurovis_mvnv.pdf
 # A supplement PDF
 #supplement: 2017_preprint_taggle_supplement.pdf
 

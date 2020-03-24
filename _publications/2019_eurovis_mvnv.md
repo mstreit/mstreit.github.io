@@ -6,7 +6,7 @@ key: 2019_eurovis_mvnv
 # paper | preprint | poster
 type: paper
 # optional url for a different site; defaults to data.caleydo.org
-#paper_content_url: https://arxiv.org/abs/1712.05944
+paper_content_url: https://vdl.sci.utah.edu/mvnv/
 
 
 # The shortname is used for auto-generated titels

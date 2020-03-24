@@ -1,7 +1,7 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Survey on the Analysis of User Interactions andVisualization Provenance"
+title: "Survey on the Analysis of User Interactions and Visualization Provenance"
 key: 2020_eurovis_anaprov
 # paper | preprint | poster
 type: preprint

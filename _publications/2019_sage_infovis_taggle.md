@@ -4,7 +4,7 @@ layout: publication
 title: "Taggle: Combining Overview and Details in Tabular Data Visualizations"
 key: 2019_sage_infovis_taggle
 # paper | preprint | poster
-type: preprint
+type: paper
 # optional url for a different site; defaults to data.caleydo.org
 #paper_content_url: https://arxiv.org/abs/1712.05944
 
@@ -32,7 +32,7 @@ year: 2019
 
 bibentry: article
 bib:
-  journal: Information Visualization, to appear
+  journal: Information Visualization
   booktitle: 
   editor: 
   publisher: Sage

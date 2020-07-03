@@ -35,7 +35,7 @@ bib:
   editor: 
   publisher: https://diglib.eg.org/handle/10.1111/cgf14035
   address: 
-  doi: 10.1111/cgf.14035
+  doi: #10.1111/cgf.14035
   url: 
   volume: 
   number: 

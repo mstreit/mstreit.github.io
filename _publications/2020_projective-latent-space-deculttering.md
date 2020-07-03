@@ -48,7 +48,7 @@ non-caleydo-paper: true
 project: 
 
 # Use this if you have an external project website
-external-project: https://arxiv.org/abs/2006.12902
+external-project: 
 
 # The reference to the video entry
 video: 

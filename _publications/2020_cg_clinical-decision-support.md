@@ -1,8 +1,8 @@
 ---
 layout: publication
 # The quotes make the : possible, otherwise you can do it without quotes
-title: "Exploring Visual Patterns in Projected Human and Machine Decision-Making Paths"
-key: 2020_tiis_pathexplorer
+title: "A Visual Approach to Explainable Computerized Clinical Decision Support"
+key: 2020_cg_clinical-decision-support
 # paper | preprint | poster
 type: preprint
 # optional url for a different site; defaults to data.caleydo.org
@@ -10,35 +10,38 @@ paper_content_url:
 
 
 # The shortname is used for auto-generated titels
-shortname: MVNV
+shortname: 
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
-image: 2020_tiis_pathexplorer.png
+image: 2020_cg_clinical-decision-support.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
 image_large: 
 
 # Authors in the "database" can be used with just the key (lastname). Others can be written properly.
 authors:
-- Andreas Hinterreiter
-- Christian Steinparz
-- Moritz Schöfl
-- stitz
-- Marc Streit 
+- Juliane Müller 
+- Matthaeus Stoehr
+- Alexander Oeser
+- Jan Gaebel
+- streit 
+- Andreas Dietz
+- Steffen Oeltze-Jafra
+
 
 journal-short: Preprint
 year: 2020
 
 bibentry: article
 bib:
-  journal: Preprint
+  journal: Computer & Graphics, Special Section on VCBM 2019
   booktitle: 
   editor: 
   publisher:
   address: 
-  doi: 
-  url: https://arxiv.org/abs/2001.08372
-  volume: 
+  doi: 10.1016/j.cag.2020.06.004
+  url: 
+  volume: 91
   number: 
-  pages: 
+  pages: 1-11
   month: 
 
 # Add things like "Best Paper Award at InfoVis 2099, selected out of 4000 submissions"
@@ -50,7 +53,7 @@ non-caleydo-paper: true
 project: 
 
 # Use this if you have an external project website
-external-project: https://arxiv.org/abs/2001.08372
+external-project: 
 
 # The reference to the video entry
 video: 
@@ -58,7 +61,7 @@ video:
 #preview-video:
 
 # the prerint
-pdf: 2020_tiis_pathexplorer.pdf
+pdf: 2020_cg_clinical-decision-support.pdf
 # A supplement PDF
 #supplement: 2017_preprint_taggle_supplement.pdf
 

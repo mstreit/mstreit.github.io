@@ -4,7 +4,7 @@ layout: publication
 title: "A Visual Approach to Explainable Computerized Clinical Decision Support"
 key: 2020_cg_clinical-decision-support
 # paper | preprint | poster
-type: preprint
+type: paper
 # optional url for a different site; defaults to data.caleydo.org
 paper_content_url: 
 
@@ -27,7 +27,7 @@ authors:
 - Steffen Oeltze-Jafra
 
 
-journal-short: Preprint
+journal-short: 
 year: 2020
 
 bibentry: article

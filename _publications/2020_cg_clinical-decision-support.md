@@ -22,7 +22,7 @@ authors:
 - Christian Steinparz
 - Moritz Schöfl
 - stitz
-- streit 
+- Marc Streit 
 
 journal-short: Preprint
 year: 2020

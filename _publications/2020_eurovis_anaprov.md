@@ -30,13 +30,13 @@ year: 2020
 
 bibentry: article
 bib:
-  journal: Preprint
+  journal: Computer Graphics Forum, EuroVis STAR 2020 (to appear)
   booktitle: 
   editor: 
-  publisher:
+  publisher: https://diglib.eg.org/handle/10.1111/cgf14035
   address: 
-  doi: 
-  url: https://osf.io/jux76
+  doi: 10.1111/cgf.14035
+  url: 
   volume: 
   number: 
   pages: 
@@ -51,7 +51,7 @@ non-caleydo-paper: true
 project: 
 
 # Use this if you have an external project website
-external-project: https://osf.io/jux76
+external-project: https://provenance-survey.caleydo.org/
 
 # The reference to the video entry
 video: 

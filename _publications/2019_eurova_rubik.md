@@ -56,6 +56,8 @@ award:
 # Link to an official preprint server
 preprint_server: 
 
+non-caleydo-paper: true
+
 # Links to a project hosted on VDL, or else externally on your own site
 project:
 external-project: https://rubiks-cube-vis.netlify.com/

@@ -56,11 +56,13 @@ award:
 # Link to an official preprint server
 preprint_server: 
 
-non-caleydo-paper: true
+# Use if this paper is linked to an internal project. This will link to the project site
+project: 
 
-# Links to a project hosted on VDL, or else externally on your own site
-project:
-external-project: https://rubiks-cube-vis.netlify.com/
+# Use this if you have an external project website
+external-project: 
+
+non-caleydo-paper: true
 
 # The reference to the video entry
 video: 

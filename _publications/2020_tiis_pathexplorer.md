@@ -10,7 +10,7 @@ paper_content_url:
 
 
 # The shortname is used for auto-generated titels
-shortname: MVNV
+shortname: ProjectionPathExplorer
 # add a 2:1 aspect ratio (e.g., width: 400px, height: 200px) to the folder /assets/images/papers/
 image: 2020_tiis_pathexplorer.png
 # add a 2:1 aspect ratio teaser figure (e.g., width: 1200px, height: 600px) to the folder /assets/images/papers/
@@ -24,12 +24,12 @@ authors:
 - stitz
 - streit 
 
-journal-short: Preprint
+journal-short: ACM TiiS
 year: 2020
 
 bibentry: article
 bib:
-  journal: Preprint
+  journal: ACM Transactions on Interactive Intelligent Systems (TiiS), Special Issue on Interactive Visual Analytics for Making Explainable and Accountable Decisions (to appear)
   booktitle: 
   editor: 
   publisher:

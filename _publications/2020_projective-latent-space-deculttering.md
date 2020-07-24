@@ -30,10 +30,10 @@ bib:
   journal: Preprint
   booktitle: 
   editor: 
-  publisher:
+  publisher: https://arxiv.org/abs/2006.12902
   address: 
   doi: 
-  url: https://arxiv.org/abs/2006.12902
+  url: 
   volume: 
   number: 
   pages: 

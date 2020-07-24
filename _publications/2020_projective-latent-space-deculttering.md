@@ -30,10 +30,10 @@ bib:
   journal: Preprint
   booktitle: 
   editor: 
-  publisher: https://arxiv.org/abs/2006.12902
+  publisher: 
   address: 
   doi: 
-  url: 
+  url: https://arxiv.org/abs/2006.12902
   volume: 
   number: 
   pages: 
@@ -48,7 +48,7 @@ non-caleydo-paper: true
 project: 
 
 # Use this if you have an external project website
-external-project: 
+external-project: https://arxiv.org/abs/2006.12902
 
 # The reference to the video entry
 video: 

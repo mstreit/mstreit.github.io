@@ -34,10 +34,10 @@ bib:
   journal: IEEE Transactions on Visualization and Computer Graphics (to appear)
   booktitle: 
   editor: 
-  publisher: https://arxiv.org/abs/1910.00969
+  publisher: 
   address: 
   doi: 
-  url: 
+  url: https://arxiv.org/abs/1910.00969
   volume: 
   number: 
   pages: 

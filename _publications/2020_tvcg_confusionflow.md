@@ -36,8 +36,8 @@ bib:
   editor: 
   publisher: 
   address: 
-  doi: 
-  url: https://arxiv.org/abs/1910.00969
+  doi: 10.1109/TVCG.2020.3012063
+  url: 
   volume: 
   number: 
   pages: 

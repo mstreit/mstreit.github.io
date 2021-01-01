@@ -1,6 +1,0 @@
----
-layout: post
-title:  Honorable Mention Award at ACM CHI'14
-date:   2014-02-01 20:00:00
-categories: event
----

@@ -1,7 +1,0 @@
----
-layout: post
-title:  Human Technology Interface 2015 Award granted by the State of Styria
-link: http://www.gesundheit.steiermark.at/cms/ziel/115186848/DE/
-date:   2015-04-29 20:00:00
-categories: event
----
